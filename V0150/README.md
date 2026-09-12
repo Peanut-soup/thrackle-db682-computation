@@ -8,7 +8,7 @@ For running a check of DB(6,8,-2) with all of the speed ups we added, one should
 ```python
 python fulek_pach_thrackle_v0150_FINAL_23ae90.py search-db682-cores --processes 4 --planarity-backend boost --report db682_run.json
 ```
-However, when experimenting with other graphs, one should create a python file with the:
+However, when experimenting with other graphs, one should create a python file with the following:
 
 ```python
 from fulek_pach_thrackle_v0150_FINAL_23ae90 import DB, Edges, inspect, run
