@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "version": "1.1.0",
+  "finished_utc": "2026-09-11T02:16:14.164391+00:00",
+  "seconds": 146.721,
+  "python": "3.12.7",
+  "networkx": "3.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "c8": {
+    "unique_candidates_planarity_tested": 2544,
+    "planar_candidates": 2544,
+    "nonplanar_candidates": 0,
+    "dihedral_images_checked_including_duplicates": 40704,
+    "directed_adjacent_triple_flips_checked": 10624,
+    "component_sizes": [
+      656,
+      896,
+      992
+    ],
+    "total_systems": 2544,
+    "all_queues_exhausted": true,
+    "full_combinatorial_closure_verified": true
+  },
+  "h2": {
+    "parents_completed": 2544,
+    "start": 0,
+    "end": 2544,
+    "records": 60196,
+    "nodes": 384448,
+    "planarity_tests": 4551768,
+    "nonplanar_prefixes": 4169864,
+    "raw_extensions_accounted": 85458862080,
+    "boost_version": 108200,
+    "threads": 4,
+    "seconds": 136.231
+  },
+  "h5": {
+    "count": 60196,
+    "all_rows_valid": true,
+    "all_reflections_involutive": true,
+    "all_projected_c8_parents_present": true,
+    "edge_and_vertex_automorphism_verified": true,
+    "independent_h5_search_needed": false
+  },
+  "reference_comparison": {
+    "performed": true,
+    "c8_raw_bytes_identical": true,
+    "h2_raw_bytes_identical": true,
+    "all_six_literal_values_identical": true,
+    "original_loader_round_trip": true,
+    "h2_reconstructed_rows_checked": 60196,
+    "release_sha256": "23ae908626820dd3afaf1dbbc180619186e8bfcb417bf8a2bbcac2bb76369632"
+  },
+  "c8_raw_sha256": "8e260f0471170ffad6490fa6debdfd06c52f153a67d9079525511c63df7c907e",
+  "h2_raw_sha256": "51e2f918b5749ef845d620546a66ceead75863d97061dc36ac5582e30d24590f",
+  "source_files_sha256": {
+    "generate_languages.py": "54876d2e196d9bc6c3f338ce4ce0b45aacfbc4e7e0c02b48ec37fb201c558f31",
+    "generate_c8.py": "5ce46884c7ddc6d80a23bc9f2ebad2fef821bb7118975b59da6c08acfa3081d9",
+    "language_io.py": "6eee420317ac68969810960b18bd92c18b761f8382a12de78ce7e7c5e67d937f",
+    "h2_native.cpp": "ee3d892fd8150533bd32757a5f312bbb607c0056887771fbd1f973fdbc9b4401"
+  },
+  "native_executable_sha256": "aea3f030bb3809426c7636153ea1498356e4842ff7fa49fb860694b464ce9f29",
+  "compiled_source_file_sha256": "ee3d892fd8150533bd32757a5f312bbb607c0056887771fbd1f973fdbc9b4401",
+  "seeds_sha256": "730cdf7ebaab8b87b24a22273211b25a0b036ae020356587e97d10c564b98cc4",
+  "output_files_sha256": {
+    "c8.raw": "8e260f0471170ffad6490fa6debdfd06c52f153a67d9079525511c63df7c907e",
+    "h2.raw": "51e2f918b5749ef845d620546a66ceead75863d97061dc36ac5582e30d24590f",
+    "h2_records.jsonl": "9ece3f6f8f822f829c712cf79d79a6c6b41fccf3924b9649fdf8d13a2ef960ed",
+    "h5_systems.jsonl": "d979b7cee2dbf457179297d4b2b9ef31c485c0c07a86642a15fe451deeffef42",
+    "v0150_data_blocks.py": "86a97f2cf51842fd11692f0fafe58a1fa900ad532f883384a8c386f3b091d496",
+    "data_schema.json": "32e521999595925452817d95f1bd675d69465b49f4e02c0e6e2dfbe0acbf93f5"
+  },
+  "scope": "Seeded C8 regeneration conditional on the published classification; exhaustive H2 extensions with safe chronological-prefix minors; H5 by verified reflection. No DB exclusion search."
+}

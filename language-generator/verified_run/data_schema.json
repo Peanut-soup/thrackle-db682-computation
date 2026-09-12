@@ -1,0 +1,126 @@
+{
+  "c8_row_order": [
+    0,
+    1,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6
+  ],
+  "h2_row_order": [
+    0,
+    1,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    2
+  ],
+  "h5_row_order": [
+    0,
+    1,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5
+  ],
+  "h2_gap_partner_order": [
+    1,
+    11,
+    10,
+    9,
+    8,
+    7
+  ],
+  "program_edge_orientations": {
+    "0": [
+      "A",
+      "s1"
+    ],
+    "1": [
+      "s1",
+      "B"
+    ],
+    "2": [
+      "p1",
+      "A"
+    ],
+    "3": [
+      "p2",
+      "p1"
+    ],
+    "4": [
+      "p3",
+      "p2"
+    ],
+    "5": [
+      "B",
+      "p3"
+    ],
+    "6": [
+      "A",
+      "q1"
+    ],
+    "7": [
+      "q1",
+      "q2"
+    ],
+    "8": [
+      "q2",
+      "q3"
+    ],
+    "9": [
+      "q3",
+      "q4"
+    ],
+    "10": [
+      "q4",
+      "q5"
+    ],
+    "11": [
+      "q5",
+      "B"
+    ]
+  },
+  "reflection_edge_map": {
+    "0": 1,
+    "1": 0,
+    "2": 5,
+    "5": 2,
+    "3": 4,
+    "4": 3,
+    "6": 11,
+    "11": 6,
+    "7": 10,
+    "10": 7,
+    "8": 9,
+    "9": 8
+  },
+  "reflection_vertex_map": {
+    "A": "B",
+    "B": "A",
+    "s1": "s1",
+    "p1": "p3",
+    "p2": "p2",
+    "p3": "p1",
+    "q1": "q5",
+    "q2": "q4",
+    "q3": "q3",
+    "q4": "q2",
+    "q5": "q1"
+  },
+  "c8_record_bytes": 40,
+  "h2_record_bytes": 14,
+  "h2_layout": "uint16 little-endian C8 parent; 6 edge IDs; 6 gaps",
+  "h2_sort": "parent index, edge2 row, gaps",
+  "c8_sort": "lexicographic full row tuple in DB orientation",
+  "h5_storage": "inspection output only; v0.15.0 pulls H5 support back to H2 by reflection",
+  "encoding": "raw bytes -> zlib level 9 -> Python base85 ASCII -> adjacent string literals"
+}

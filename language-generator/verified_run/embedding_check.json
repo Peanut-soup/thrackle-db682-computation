@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source_sha256": "23ae908626820dd3afaf1dbbc180619186e8bfcb417bf8a2bbcac2bb76369632",
+  "output_sha256": "23ae908626820dd3afaf1dbbc180619186e8bfcb417bf8a2bbcac2bb76369632",
+  "only_six_data_assignments_replaced": true,
+  "non_data_ast_unchanged": true,
+  "c8_raw_bytes_identical": true,
+  "h2_raw_bytes_identical": true,
+  "c8_records": 2544,
+  "h2_records": 60196,
+  "original_file_modified": false,
+  "db_search_executed": false,
+  "generated_values_equal_original_values": true,
+  "output_file_bytes_identical_to_frozen_release": true,
+  "existing_output_preserved": true,
+  "wrong_source_rejected_without_output": true,
+  "helper_sha256": "aada89f7bcf2f7063877de7c9f8ab6d914b9e1aad57a584639319f1eb6be5e7d"
+}

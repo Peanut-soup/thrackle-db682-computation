@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "random_seed": 20260910,
+  "prefix_graphs_compared": 700,
+  "prefix_depths_checked": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "native_graph_vertex_and_edge_sets_equal": true,
+  "boost_networkx_planarity_agreement": true,
+  "outcomes": {
+    "planar": 348,
+    "nonplanar": 352
+  },
+  "malformed_probe_rejected": true,
+  "independent_full_h2_checks": 100,
+  "independent_full_h5_checks": 100,
+  "source_sha256": "74f4ec8449112786403512e48172fffd091c0611b78e8399aa1765918d217200",
+  "native_sha256": "aea3f030bb3809426c7636153ea1498356e4842ff7fa49fb860694b464ce9f29",
+  "networkx": "3.3",
+  "scope": "Deterministic differential samples and controls, not formal verification."
+}
