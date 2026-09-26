@@ -20,32 +20,4 @@ The exact frozen program of v0.15.0 is in the V0150 folder with a SHA-256 checks
 Inside of V0150/ and language-generator/ there is a README. These both give a little bit more details on each one and how to actually use them. Please refer to these when trying to run programs and get information about the programs.
 
 # Citation
-@misc{ScoppettoThrackleLanguages2026,
-  author       = {Truman Scoppetto},
-  title        = {{C8}, {H2} and {H5} Language Generator for v0.15.0},
-  year         = {2026},
-  howpublished = {Supplementary software accompanying the thrackle manuscript},
-  note         = {Version 1.1.0, 10 September 2026. AI-assisted companion implementation; seeded C8 regeneration, exhaustive H2 extension, reflected H5 export, and exact reproduction of the frozen v0.15.0 data}
-}
-
-@article{MiserehNikolayevskyAnnular2018,
-  author  = {Grace Misereh and Yuri Nikolayevsky},
-  title   = {Annular and pants thrackles},
-  journal = {Discrete Mathematics and Theoretical Computer Science},
-  volume  = {20},
-  number  = {1},
-  year    = {2018},
-  note    = {Article 16. C8 classification in Section 4, p. 13, before Figure 19},
-  url     = {https://arxiv.org/pdf/1708.07351}
-}
-
-@article{FulekPach2011,
-  author  = {Radoslav Fulek and J{\'a}nos Pach},
-  title   = {A Computational Approach to Conway's Thrackle Conjecture},
-  journal = {Computational Geometry},
-  volume  = {44},
-  number  = {6--7},
-  pages   = {345--355},
-  year    = {2011},
-  doi     = {10.1016/j.comgeo.2011.02.001}
-}
+Find all citations in CITATIONS.BIB.
