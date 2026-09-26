@@ -1,0 +1,94 @@
+{
+  "C3": {
+    "complete_systems_independently_tested": 1,
+    "valid_systems": 1,
+    "valid_prefixes_checked": 3,
+    "seconds": 0.0012929000076837838
+  },
+  "C4": {
+    "complete_systems_independently_tested": 1,
+    "valid_systems": 0,
+    "valid_prefixes_checked": 0,
+    "seconds": 0.0013525999966077507
+  },
+  "C5": {
+    "complete_systems_independently_tested": 32,
+    "valid_systems": 1,
+    "valid_prefixes_checked": 10,
+    "seconds": 0.04887700000836048
+  },
+  "C6": {
+    "complete_systems_independently_tested": 46656,
+    "valid_systems": 8,
+    "valid_prefixes_checked": 120,
+    "seconds": 21.176027800000156
+  },
+  "atlas_3": {
+    "complete_systems_independently_tested": 1,
+    "valid_systems": 1,
+    "valid_prefixes_checked": 1,
+    "seconds": 0.0003332999913254753
+  },
+  "atlas_6": {
+    "complete_systems_independently_tested": 1,
+    "valid_systems": 1,
+    "valid_prefixes_checked": 2,
+    "seconds": 0.0007151000027079135
+  },
+  "atlas_7": {
+    "complete_systems_independently_tested": 1,
+    "valid_systems": 1,
+    "valid_prefixes_checked": 3,
+    "seconds": 0.0011704999924404547
+  },
+  "atlas_14": {
+    "complete_systems_independently_tested": 1,
+    "valid_systems": 1,
+    "valid_prefixes_checked": 4,
+    "seconds": 0.0015813000063644722
+  },
+  "atlas_15": {
+    "complete_systems_independently_tested": 1,
+    "valid_systems": 1,
+    "valid_prefixes_checked": 5,
+    "seconds": 0.002061200008029118
+  },
+  "atlas_16": {
+    "complete_systems_independently_tested": 1,
+    "valid_systems": 0,
+    "valid_prefixes_checked": 0,
+    "seconds": 0.0017054999916581437
+  },
+  "atlas_17": {
+    "complete_systems_independently_tested": 1,
+    "valid_systems": 0,
+    "valid_prefixes_checked": 0,
+    "seconds": 0.001781200000550598
+  },
+  "DB(3,3,0)": {
+    "complete_systems_independently_tested": 36,
+    "valid_systems": 0,
+    "valid_prefixes_checked": 0,
+    "seconds": 0.03359429999545682
+  },
+  "DB(3,3,-1)": {
+    "complete_systems_independently_tested": 1,
+    "valid_systems": 0,
+    "valid_prefixes_checked": 0,
+    "seconds": 0.0019256999948993325
+  },
+  "DB(3,4,-1)": {
+    "complete_systems_independently_tested": 96,
+    "valid_systems": 0,
+    "valid_prefixes_checked": 0,
+    "seconds": 0.10575660000904463
+  },
+  "legacy_counterexamples_preserved": 4,
+  "C8_positive_regressions": {
+    "witnesses": 64,
+    "prefixes": 1792
+  },
+  "limits_interrupts_and_backend_failure": "PASS",
+  "input_validation_and_namespace_collisions": "PASS",
+  "passed": true
+}
