@@ -1,0 +1,2433 @@
+{
+  "plan": {
+    "started_utc": "2026-09-25T03:17:35.733976+00:00",
+    "cores": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "repeats": 1,
+    "seconds_each": 900,
+    "checkpoints": [
+      30.0,
+      120.0,
+      300.0,
+      600.0,
+      900.0
+    ],
+    "jobs": [
+      {
+        "repeat": 1,
+        "core": 0,
+        "program": "reconstruction",
+        "directory": "repeat_1_core_0_reconstruction"
+      },
+      {
+        "repeat": 1,
+        "core": 0,
+        "program": "v0150",
+        "directory": "repeat_1_core_0_v0150"
+      },
+      {
+        "repeat": 1,
+        "core": 1,
+        "program": "v0150",
+        "directory": "repeat_1_core_1_v0150"
+      },
+      {
+        "repeat": 1,
+        "core": 1,
+        "program": "reconstruction",
+        "directory": "repeat_1_core_1_reconstruction"
+      },
+      {
+        "repeat": 1,
+        "core": 3,
+        "program": "reconstruction",
+        "directory": "repeat_1_core_3_reconstruction"
+      },
+      {
+        "repeat": 1,
+        "core": 3,
+        "program": "v0150",
+        "directory": "repeat_1_core_3_v0150"
+      },
+      {
+        "repeat": 1,
+        "core": 5,
+        "program": "v0150",
+        "directory": "repeat_1_core_5_v0150"
+      },
+      {
+        "repeat": 1,
+        "core": 5,
+        "program": "reconstruction",
+        "directory": "repeat_1_core_5_reconstruction"
+      }
+    ],
+    "source_hashes": {
+      "reconstruction": "b5898e978269307e54affe402da81daaac75345f4d558514b92c5f2458fbfb4f",
+      "v0150": "23ae908626820dd3afaf1dbbc180619186e8bfcb417bf8a2bbcac2bb76369632"
+    },
+    "fixture_sha256": "cae1dada56efe98139b1ffc0bd9847611a4a88d053acd47dac264246d09d8e9b",
+    "harness_sha256": "7f2e55b9b435822ac4e17fe661f43c98bc2c7cd65bf144dcc0610502ac48af77",
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "networkx": "3.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "logical_processors": 12,
+    "shared_core_total_exact": "210277998977108063813577501731519294745870336000000000000",
+    "sequential": true,
+    "balanced_program_order": true,
+    "multiplicity": 1
+  },
+  "results": [
+    {
+      "program": "reconstruction",
+      "core": 0,
+      "status": "TIME_LIMIT",
+      "reason": "Per-core wall-clock limit reached.",
+      "error": null,
+      "time_budget_seconds": 900.0,
+      "elapsed_seconds": 900.0036903,
+      "cpu_seconds": 896.46875,
+      "planarity_tests_observed": 295158,
+      "complete_seconds": null,
+      "resolved_exact": "21075154448135165361629690549326521551208027929381437440",
+      "total_exact": "210277998977108063813577501731519294745870336000000000000",
+      "percent_resolved": "10.02251997387016900342",
+      "samples": [
+        {
+          "elapsed_seconds": 0.0,
+          "observed_seconds": 0.0,
+          "recording_delay_seconds": 0,
+          "kind": "start",
+          "phase": "setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 30.0,
+          "observed_seconds": 30.00047970000014,
+          "recording_delay_seconds": 0.0004797000001417473,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "21075154448135165361629673026225410876888671711521310720",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "10.02251997387016900342"
+        },
+        {
+          "elapsed_seconds": 120.0,
+          "observed_seconds": 120.00134930000058,
+          "recording_delay_seconds": 0.001349300000583753,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "21075154448135165361629673026257021244968913457671700480",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "10.02251997387016900342"
+        },
+        {
+          "elapsed_seconds": 300.0,
+          "observed_seconds": 300.0000491999963,
+          "recording_delay_seconds": 4.919999628327787e-05,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "21075154448135165361629673028969991391404205444679030272",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "10.02251997387016900342"
+        },
+        {
+          "elapsed_seconds": 600.0,
+          "observed_seconds": 600.0006222000084,
+          "recording_delay_seconds": 0.0006222000083653256,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "21075154448135165361629690526533030809266888137338185792",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "10.02251997387016900342"
+        },
+        {
+          "elapsed_seconds": 900.0,
+          "observed_seconds": 900.0028071999986,
+          "recording_delay_seconds": 0.002807199998642318,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "21075154448135165361629690549326521551208027929381437440",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "10.02251997387016900342"
+        }
+      ],
+      "intervals": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 30.0,
+          "duration_seconds": 30.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "10.02251997387016900342",
+          "resolved_gain_exact": "21075154448135165361629673026225410876888671711521310720",
+          "resolved_gain_scientific": "2.10751544481351653616E+55",
+          "percentage_point_gain_scientific": "1.00225199738701690034E+1",
+          "resolved_per_second": "7.02505148271172178721E+53",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 30.0,
+          "end_seconds": 120.0,
+          "duration_seconds": 90.0,
+          "start_percent": "10.02251997387016900342",
+          "end_percent": "10.02251997387016900342",
+          "resolved_gain_exact": "31610368080241746150389760",
+          "resolved_gain_scientific": "3.16103680802417461504E+25",
+          "percentage_point_gain_scientific": "1.50326559288225926825E-29",
+          "resolved_per_second": "3.51226312002686068338E+23",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 120.0,
+          "end_seconds": 300.0,
+          "duration_seconds": 180.0,
+          "start_percent": "10.02251997387016900342",
+          "end_percent": "10.02251997387016900342",
+          "resolved_gain_exact": "2712970146435291987007329792",
+          "resolved_gain_scientific": "2.71297014643529198701E+27",
+          "percentage_point_gain_scientific": "1.29018259619763633171E-27",
+          "resolved_per_second": "1.50720563690849554834E+25",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 300.0,
+          "end_seconds": 600.0,
+          "duration_seconds": 300.0,
+          "start_percent": "10.02251997387016900342",
+          "end_percent": "10.02251997387016900342",
+          "resolved_gain_exact": "17497563039417862682692659155520",
+          "resolved_gain_scientific": "1.74975630394178626827E+31",
+          "percentage_point_gain_scientific": "8.32115728917638059667E-24",
+          "resolved_per_second": "5.83252101313928756090E+28",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 600.0,
+          "end_seconds": 900.0,
+          "duration_seconds": 300.0,
+          "start_percent": "10.02251997387016900342",
+          "end_percent": "10.02251997387016900342",
+          "resolved_gain_exact": "22793490741941139792043251648",
+          "resolved_gain_scientific": "2.27934907419411397920E+28",
+          "percentage_point_gain_scientific": "1.08396935736593896006E-26",
+          "resolved_per_second": "7.59783024731371326401E+25",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        }
+      ],
+      "phase_times": [
+        {
+          "elapsed_seconds": 0.0,
+          "phase": "setup"
+        },
+        {
+          "elapsed_seconds": 0.0028981000068597496,
+          "phase": "search"
+        }
+      ],
+      "activation_order": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "orientation": {
+        "2": [
+          0,
+          3
+        ],
+        "3": [
+          3,
+          4
+        ],
+        "4": [
+          4,
+          5
+        ],
+        "5": [
+          5,
+          2
+        ],
+        "1": [
+          2,
+          1
+        ],
+        "0": [
+          1,
+          0
+        ],
+        "6": [
+          0,
+          6
+        ],
+        "7": [
+          6,
+          7
+        ],
+        "8": [
+          7,
+          8
+        ],
+        "9": [
+          8,
+          9
+        ],
+        "10": [
+          9,
+          10
+        ],
+        "11": [
+          10,
+          2
+        ]
+      },
+      "stats": {
+        "calls": 295157,
+        "prefix_tests": 295157,
+        "prefix_prunes": 286122,
+        "c6_prunes": 0,
+        "complete_tests": 0,
+        "valid_systems": 0,
+        "resolved": 21075154448135165361629690549326521551208027929381437440
+      },
+      "raw_result": null,
+      "source_sha256": "b5898e978269307e54affe402da81daaac75345f4d558514b92c5f2458fbfb4f",
+      "fixture_sha256": "cae1dada56efe98139b1ffc0bd9847611a4a88d053acd47dac264246d09d8e9b",
+      "harness_sha256": "7f2e55b9b435822ac4e17fe661f43c98bc2c7cd65bf144dcc0610502ac48af77",
+      "networkx": "3.3",
+      "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "workers": 1,
+      "reflection_credit": 1,
+      "timing": "After imports and common seed generation; includes all per-run preparation, language loading and local domains. Frozen language generation excluded.",
+      "counter_meaning": "Distinct complete extensions resolved; not physical planarity tests or time remaining.",
+      "repeat": 1
+    },
+    {
+      "program": "v0150",
+      "core": 0,
+      "status": "TIME_LIMIT",
+      "reason": "Per-core wall-clock limit reached.",
+      "error": null,
+      "time_budget_seconds": 900.0,
+      "elapsed_seconds": 900.0041161000117,
+      "cpu_seconds": 897.359375,
+      "planarity_tests_observed": 95908,
+      "complete_seconds": null,
+      "resolved_exact": "210239638514002706637675413204869370024330422936141824000",
+      "total_exact": "210277998977108063813577501731519294745870336000000000000",
+      "percent_resolved": "99.98175726262758792388",
+      "samples": [
+        {
+          "elapsed_seconds": 0.0,
+          "observed_seconds": 0.0,
+          "recording_delay_seconds": 0,
+          "kind": "start",
+          "phase": "setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 30.0,
+          "observed_seconds": 30.001703500005533,
+          "recording_delay_seconds": 0.0017035000055329874,
+          "kind": "checkpoint",
+          "phase": "local-domain setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 120.0,
+          "observed_seconds": 120.00033049999911,
+          "recording_delay_seconds": 0.0003304999991087243,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210237428159196127525212944972118402032670238813716480000",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.98070610424804687500"
+        },
+        {
+          "elapsed_seconds": 300.0,
+          "observed_seconds": 300.00179940000817,
+          "recording_delay_seconds": 0.0017994000081671402,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210237855972519833433111808450174680872795976750858240000",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.98090955554860470551"
+        },
+        {
+          "elapsed_seconds": 600.0,
+          "observed_seconds": 600.0049794000079,
+          "recording_delay_seconds": 0.004979400007869117,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210239424616220064139793678161788089458446107161314263040",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.98165554119991455902"
+        },
+        {
+          "elapsed_seconds": 900.0,
+          "observed_seconds": 900.001952400009,
+          "recording_delay_seconds": 0.0019524000090314075,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210239638514002706637675413204869370024330422936141824000",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.98175726262758792388"
+        }
+      ],
+      "intervals": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 30.0,
+          "duration_seconds": 30.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "0.00000000000000000000",
+          "resolved_gain_exact": "0",
+          "resolved_gain_scientific": "0.00000000000000000000E+0",
+          "percentage_point_gain_scientific": "0.00000000000000000000E+0",
+          "resolved_per_second": "0.00000000000000000000E+0",
+          "end_phase": "local-domain setup",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 30.0,
+          "end_seconds": 120.0,
+          "duration_seconds": 90.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "99.98070610424804687500",
+          "resolved_gain_exact": "210237428159196127525212944972118402032670238813716480000",
+          "resolved_gain_scientific": "2.10237428159196127525E+56",
+          "percentage_point_gain_scientific": "9.99807061042480468750E+1",
+          "resolved_per_second": "2.33597142399106808361E+54",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 120.0,
+          "end_seconds": 300.0,
+          "duration_seconds": 180.0,
+          "start_percent": "99.98070610424804687500",
+          "end_percent": "99.98090955554860470551",
+          "resolved_gain_exact": "427813323705907898863478056278840125737937141760000",
+          "resolved_gain_scientific": "4.27813323705907898863E+50",
+          "percentage_point_gain_scientific": "2.03451300557830513100E-4",
+          "resolved_per_second": "2.37674068725504388257E+48",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 300.0,
+          "end_seconds": 600.0,
+          "duration_seconds": 300.0,
+          "start_percent": "99.98090955554860470551",
+          "end_percent": "99.98165554119991455902",
+          "resolved_gain_exact": "1568643700230706681869711613408585650130410456023040",
+          "resolved_gain_scientific": "1.56864370023070668187E+51",
+          "percentage_point_gain_scientific": "7.45985651309853505467E-4",
+          "resolved_per_second": "5.22881233410235560623E+48",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 600.0,
+          "end_seconds": 900.0,
+          "duration_seconds": 300.0,
+          "start_percent": "99.98165554119991455902",
+          "end_percent": "99.98175726262758792388",
+          "resolved_gain_exact": "213897782642497881735043081280565884315774827560960",
+          "resolved_gain_scientific": "2.13897782642497881735E+50",
+          "percentage_point_gain_scientific": "1.01721427673364861174E-4",
+          "resolved_per_second": "7.12992608808326272450E+47",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        }
+      ],
+      "phase_times": [
+        {
+          "elapsed_seconds": 0.0,
+          "phase": "setup"
+        },
+        {
+          "elapsed_seconds": 0.0010141000093426555,
+          "phase": "language tables and search setup"
+        },
+        {
+          "elapsed_seconds": 2.857238500000676,
+          "phase": "local-domain setup"
+        },
+        {
+          "elapsed_seconds": 81.30265490000602,
+          "phase": "search"
+        }
+      ],
+      "activation_order": [
+        0,
+        1,
+        5,
+        4,
+        3,
+        2,
+        7,
+        10,
+        9,
+        8,
+        6,
+        11
+      ],
+      "orientation": {
+        "0": [
+          "A",
+          "s1"
+        ],
+        "1": [
+          "s1",
+          "B"
+        ],
+        "5": [
+          "B",
+          "p3"
+        ],
+        "4": [
+          "p3",
+          "p2"
+        ],
+        "3": [
+          "p2",
+          "p1"
+        ],
+        "2": [
+          "p1",
+          "A"
+        ],
+        "6": [
+          "A",
+          "q1"
+        ],
+        "7": [
+          "q1",
+          "q2"
+        ],
+        "8": [
+          "q2",
+          "q3"
+        ],
+        "9": [
+          "q3",
+          "q4"
+        ],
+        "10": [
+          "q4",
+          "q5"
+        ],
+        "11": [
+          "q5",
+          "B"
+        ]
+      },
+      "stats": {
+        "recursive_calls": 2987842,
+        "partial_planarity_tests": 12,
+        "partial_nonplanar_prunes": 0,
+        "c6_consistency_checks": 0,
+        "c6_prunes": 0,
+        "full_planarity_tests": 0,
+        "backtracks": 2979728,
+        "cache_hits": 0,
+        "max_active_edges": 6,
+        "max_modeled_crossings": 43,
+        "screening_states": 0,
+        "screening_candidates": 0,
+        "screening_survivors": 0,
+        "lookahead_states": 0,
+        "lookahead_dead_ends": 0,
+        "lookahead_reused_screens": 0,
+        "incremental_graph_updates": 0,
+        "partial_graph_rebuilds": 0,
+        "locked_prefix_tests": 12,
+        "locked_prefix_prunes": 0,
+        "local_domain_planarity_tests": 22156,
+        "local_domain_planarity_prunes": 18523,
+        "local_domain_signatures": 698,
+        "local_domain_seconds": 78.44447209998907,
+        "domain_stage_states": 8109,
+        "domain_signatures_considered": 4141869,
+        "domain_pruned_stage_assignments": 50677473382838,
+        "factorized_core_slot_states": 219042,
+        "factorized_extra_choices": 2760691,
+        "superdomain_tests": 73740,
+        "superdomain_prunes": 261028,
+        "superdomain_cache_hits": 268788,
+        "superdomain_cache_entries": 73740,
+        "superdomain_candidates_pruned": 424125435565776419087666831126244538293288960,
+        "superdomain_seconds": 522.894686599815,
+        "whole_stage_calls": 2902,
+        "whole_stage_cache_hits": 2072,
+        "whole_stage_dead_parents": 745,
+        "whole_stage_projection_classes": 15661,
+        "whole_stage_candidates_pruned": 0,
+        "whole_stage_seconds": 69.89082450013666,
+        "endpoint_queries": 7715,
+        "endpoint_cache_hits": 6885,
+        "endpoint_dead_signatures": 6895,
+        "endpoint_candidates_pruned": 9554638426914417021004504710137150504081377198080000,
+        "endpoint_seconds": 69.83972439997888,
+        "direct_pi_batch_calls": 0,
+        "direct_pi_batch_graphs": 0,
+        "direct_pi_batch_seconds": 0.0,
+        "c8_language_queries": 1,
+        "c8_language_prunes": 4440721,
+        "c8_language_candidates_pruned": 4184097784505490558832872872368963594771169280,
+        "c8_language_row_cache_hits": 0,
+        "c8_language_row_cache_misses": 0,
+        "c8_language_seconds": 7.499998901039362e-06,
+        "v014_c8_incremental_refinements": 7548248,
+        "v014_c8_sensitive_slot_bundles": 84140,
+        "v014_c8_sensitive_slot_dead": 0,
+        "v014_c8_sensitive_candidates_pruned": 0,
+        "v015_h2_queries": 1,
+        "v015_h2_refinements": 7682003,
+        "v015_h2_prunes": 2094231,
+        "v015_h2_candidates_pruned": 14322613823388113576394030717503145052711157760,
+        "v015_h5_queries": 1,
+        "v015_h5_refinements": 7726464,
+        "v015_h5_prunes": 590625,
+        "v015_h5_candidates_pruned": 10215360384631117794787254203366639324887449600,
+        "v015_support_prefix_states": 957659,
+        "v015_support_prefix_dead": 589793,
+        "v015_support_prefix_bundles_skipped": 2501170,
+        "v011_kuratowski_checks": 0,
+        "v011_kuratowski_hits": 0,
+        "v011_kuratowski_learned": 0,
+        "v011_iso_checks": 0,
+        "v011_iso_hits": 0,
+        "v011_batch_calls": 0,
+        "v011_batch_graphs": 0,
+        "v011_batch_seconds": 0.0,
+        "total_candidates": 210277998977108063813577501731519294745870336000000000000,
+        "resolved_candidates": 210239638514002706637675413204869370024330422936141824000,
+        "planarity_pruned_candidates": 210239638514002706637675413204869370024330422936141824000,
+        "c6_pruned_candidates": 0,
+        "full_candidates_resolved": 0,
+        "batch_planarity_calls": 0,
+        "batch_planarity_candidates": 0,
+        "batch_planarity_seconds": 0.0,
+        "depth_planarity_tests": {
+          "6": 12
+        },
+        "depth_nonplanar_prunes": {},
+        "depth_batch_calls": {},
+        "planarity_workers": 1,
+        "openmp_enabled": false,
+        "planarity_parallel_threshold": 4,
+        "kuratowski_certificates_learned": 0,
+        "kuratowski_cache_hits": 0,
+        "kuratowski_certificate_seconds": 0.0,
+        "kuratowski_cached_edges_total": 0,
+        "elapsed_seconds": 0.0,
+        "planarity_backend": "networkx",
+        "planarity_seconds": 0.0721301000303356
+      },
+      "raw_result": null,
+      "source_sha256": "23ae908626820dd3afaf1dbbc180619186e8bfcb417bf8a2bbcac2bb76369632",
+      "fixture_sha256": "cae1dada56efe98139b1ffc0bd9847611a4a88d053acd47dac264246d09d8e9b",
+      "harness_sha256": "7f2e55b9b435822ac4e17fe661f43c98bc2c7cd65bf144dcc0610502ac48af77",
+      "networkx": "3.3",
+      "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "workers": 1,
+      "reflection_credit": 1,
+      "timing": "After imports and common seed generation; includes all per-run preparation, language loading and local domains. Frozen language generation excluded.",
+      "counter_meaning": "Distinct complete extensions resolved; not physical planarity tests or time remaining.",
+      "repeat": 1
+    },
+    {
+      "program": "v0150",
+      "core": 1,
+      "status": "TIME_LIMIT",
+      "reason": "Per-core wall-clock limit reached.",
+      "error": null,
+      "time_budget_seconds": 900.0,
+      "elapsed_seconds": 900.0054504,
+      "cpu_seconds": 897.125,
+      "planarity_tests_observed": 100904,
+      "complete_seconds": null,
+      "resolved_exact": "210235360404872366883668236104816934336815426419108413440",
+      "total_exact": "210277998977108063813577501731519294745870336000000000000",
+      "percent_resolved": "99.97972276108622339396",
+      "samples": [
+        {
+          "elapsed_seconds": 0.0,
+          "observed_seconds": 0.0,
+          "recording_delay_seconds": 0,
+          "kind": "start",
+          "phase": "setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 30.0,
+          "observed_seconds": 30.000627500005066,
+          "recording_delay_seconds": 0.0006275000050663948,
+          "kind": "checkpoint",
+          "phase": "local-domain setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 120.0,
+          "observed_seconds": 120.00098110000545,
+          "recording_delay_seconds": 0.0009811000054469332,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210232223113506029726298088781442267141302910556569600000",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97823078789758814405"
+        },
+        {
+          "elapsed_seconds": 300.0,
+          "observed_seconds": 300.0061782000121,
+          "recording_delay_seconds": 0.006178200012072921,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210232864842824932671295782071988653662035453413425152000",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97853596928699864863"
+        },
+        {
+          "elapsed_seconds": 600.0,
+          "observed_seconds": 600.0019044000073,
+          "recording_delay_seconds": 0.0019044000073336065,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210234005663870441620845295326983059323882070572269568000",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97907849920028412989"
+        },
+        {
+          "elapsed_seconds": 900.0,
+          "observed_seconds": 900.0034480000031,
+          "recording_delay_seconds": 0.003448000003118068,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210235360404872366883668236104816934336815426419108413440",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97972276108622339396"
+        }
+      ],
+      "intervals": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 30.0,
+          "duration_seconds": 30.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "0.00000000000000000000",
+          "resolved_gain_exact": "0",
+          "resolved_gain_scientific": "0.00000000000000000000E+0",
+          "percentage_point_gain_scientific": "0.00000000000000000000E+0",
+          "resolved_per_second": "0.00000000000000000000E+0",
+          "end_phase": "local-domain setup",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 30.0,
+          "end_seconds": 120.0,
+          "duration_seconds": 90.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "99.97823078789758814405",
+          "resolved_gain_exact": "210232223113506029726298088781442267141302910556569600000",
+          "resolved_gain_scientific": "2.10232223113506029726E+56",
+          "percentage_point_gain_scientific": "9.99782307878975881441E+1",
+          "resolved_per_second": "2.33591359015006699696E+54",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 120.0,
+          "end_seconds": 300.0,
+          "duration_seconds": 180.0,
+          "start_percent": "99.97823078789758814405",
+          "end_percent": "99.97853596928699864863",
+          "resolved_gain_exact": "641729318902944997693290546386520732542856855552000",
+          "resolved_gain_scientific": "6.41729318902944997693E+50",
+          "percentage_point_gain_scientific": "3.05181389410504579992E-4",
+          "resolved_per_second": "3.56516288279413887607E+48",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 300.0,
+          "end_seconds": 600.0,
+          "duration_seconds": 300.0,
+          "start_percent": "99.97853596928699864863",
+          "end_percent": "99.97907849920028412989",
+          "resolved_gain_exact": "1140821045508949549513254994405661846617158844416000",
+          "resolved_gain_scientific": "1.14082104550894954951E+51",
+          "percentage_point_gain_scientific": "5.42529913285481260003E-4",
+          "resolved_per_second": "3.80273681836316516504E+48",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 600.0,
+          "end_seconds": 900.0,
+          "duration_seconds": 300.0,
+          "start_percent": "99.97907849920028412989",
+          "end_percent": "99.97972276108622339396",
+          "resolved_gain_exact": "1354741001925262822940777833875012933355846838845440",
+          "resolved_gain_scientific": "1.35474100192526282294E+51",
+          "percentage_point_gain_scientific": "6.44261885939264070486E-4",
+          "resolved_per_second": "4.51580333975087607647E+48",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        }
+      ],
+      "phase_times": [
+        {
+          "elapsed_seconds": 0.0,
+          "phase": "setup"
+        },
+        {
+          "elapsed_seconds": 0.0010578000074019656,
+          "phase": "language tables and search setup"
+        },
+        {
+          "elapsed_seconds": 2.725348500011023,
+          "phase": "local-domain setup"
+        },
+        {
+          "elapsed_seconds": 81.15086530000553,
+          "phase": "search"
+        }
+      ],
+      "activation_order": [
+        0,
+        1,
+        5,
+        4,
+        3,
+        2,
+        7,
+        10,
+        9,
+        8,
+        6,
+        11
+      ],
+      "orientation": {
+        "0": [
+          "A",
+          "s1"
+        ],
+        "1": [
+          "s1",
+          "B"
+        ],
+        "5": [
+          "B",
+          "p3"
+        ],
+        "4": [
+          "p3",
+          "p2"
+        ],
+        "3": [
+          "p2",
+          "p1"
+        ],
+        "2": [
+          "p1",
+          "A"
+        ],
+        "6": [
+          "A",
+          "q1"
+        ],
+        "7": [
+          "q1",
+          "q2"
+        ],
+        "8": [
+          "q2",
+          "q3"
+        ],
+        "9": [
+          "q3",
+          "q4"
+        ],
+        "10": [
+          "q4",
+          "q5"
+        ],
+        "11": [
+          "q5",
+          "B"
+        ]
+      },
+      "stats": {
+        "recursive_calls": 1844342,
+        "partial_planarity_tests": 14,
+        "partial_nonplanar_prunes": 0,
+        "c6_consistency_checks": 0,
+        "c6_prunes": 0,
+        "full_planarity_tests": 0,
+        "backtracks": 1836324,
+        "cache_hits": 0,
+        "max_active_edges": 6,
+        "max_modeled_crossings": 43,
+        "screening_states": 0,
+        "screening_candidates": 0,
+        "screening_survivors": 0,
+        "lookahead_states": 0,
+        "lookahead_dead_ends": 0,
+        "lookahead_reused_screens": 0,
+        "incremental_graph_updates": 0,
+        "partial_graph_rebuilds": 0,
+        "locked_prefix_tests": 14,
+        "locked_prefix_prunes": 0,
+        "local_domain_planarity_tests": 22680,
+        "local_domain_planarity_prunes": 18898,
+        "local_domain_signatures": 778,
+        "local_domain_seconds": 78.4244822000037,
+        "domain_stage_states": 8007,
+        "domain_signatures_considered": 5350244,
+        "domain_pruned_stage_assignments": 41677602164436,
+        "factorized_core_slot_states": 179429,
+        "factorized_extra_choices": 1656906,
+        "superdomain_tests": 78209,
+        "superdomain_prunes": 204440,
+        "superdomain_cache_hits": 187325,
+        "superdomain_cache_entries": 78209,
+        "superdomain_candidates_pruned": 619437834351728503371242171530494142915215360,
+        "superdomain_seconds": 506.88060390057217,
+        "whole_stage_calls": 1920,
+        "whole_stage_cache_hits": 994,
+        "whole_stage_dead_parents": 820,
+        "whole_stage_projection_classes": 20059,
+        "whole_stage_candidates_pruned": 0,
+        "whole_stage_seconds": 89.3323261995829,
+        "endpoint_queries": 10414,
+        "endpoint_cache_hits": 9488,
+        "endpoint_dead_signatures": 9151,
+        "endpoint_candidates_pruned": 10695521118437888711304912771911963993834772234240000,
+        "endpoint_seconds": 89.32566689999658,
+        "direct_pi_batch_calls": 0,
+        "direct_pi_batch_graphs": 0,
+        "direct_pi_batch_seconds": 0.0,
+        "c8_language_queries": 1,
+        "c8_language_prunes": 4042226,
+        "c8_language_candidates_pruned": 5810760004660052826644502001132721797197987840,
+        "c8_language_row_cache_hits": 0,
+        "c8_language_row_cache_misses": 0,
+        "c8_language_seconds": 6.000002031214535e-06,
+        "v014_c8_incremental_refinements": 7741498,
+        "v014_c8_sensitive_slot_bundles": 68007,
+        "v014_c8_sensitive_slot_dead": 0,
+        "v014_c8_sensitive_candidates_pruned": 0,
+        "v015_h2_queries": 1,
+        "v015_h2_refinements": 7880120,
+        "v015_h2_prunes": 2442490,
+        "v015_h2_candidates_pruned": 18176221314679557945314810863485072400900423680,
+        "v015_h5_queries": 1,
+        "v015_h5_refinements": 7919234,
+        "v015_h5_prunes": 831958,
+        "v015_h5_candidates_pruned": 16884696945277018362135698547921423555992616960,
+        "v015_support_prefix_states": 1050706,
+        "v015_support_prefix_dead": 664083,
+        "v015_support_prefix_bundles_skipped": 2696345,
+        "v011_kuratowski_checks": 0,
+        "v011_kuratowski_hits": 0,
+        "v011_kuratowski_learned": 0,
+        "v011_iso_checks": 0,
+        "v011_iso_hits": 0,
+        "v011_batch_calls": 0,
+        "v011_batch_graphs": 0,
+        "v011_batch_seconds": 0.0,
+        "total_candidates": 210277998977108063813577501731519294745870336000000000000,
+        "resolved_candidates": 210235360404872366883668236104816934336815426419108413440,
+        "planarity_pruned_candidates": 210235360404872366883668236104816934336815426419108413440,
+        "c6_pruned_candidates": 0,
+        "full_candidates_resolved": 0,
+        "batch_planarity_calls": 0,
+        "batch_planarity_candidates": 0,
+        "batch_planarity_seconds": 0.0,
+        "depth_planarity_tests": {
+          "6": 14
+        },
+        "depth_nonplanar_prunes": {},
+        "depth_batch_calls": {},
+        "planarity_workers": 1,
+        "openmp_enabled": false,
+        "planarity_parallel_threshold": 4,
+        "kuratowski_certificates_learned": 0,
+        "kuratowski_cache_hits": 0,
+        "kuratowski_certificate_seconds": 0.0,
+        "kuratowski_cached_edges_total": 0,
+        "elapsed_seconds": 0.0,
+        "planarity_backend": "networkx",
+        "planarity_seconds": 0.08239489997504279
+      },
+      "raw_result": null,
+      "source_sha256": "23ae908626820dd3afaf1dbbc180619186e8bfcb417bf8a2bbcac2bb76369632",
+      "fixture_sha256": "cae1dada56efe98139b1ffc0bd9847611a4a88d053acd47dac264246d09d8e9b",
+      "harness_sha256": "7f2e55b9b435822ac4e17fe661f43c98bc2c7cd65bf144dcc0610502ac48af77",
+      "networkx": "3.3",
+      "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "workers": 1,
+      "reflection_credit": 1,
+      "timing": "After imports and common seed generation; includes all per-run preparation, language loading and local domains. Frozen language generation excluded.",
+      "counter_meaning": "Distinct complete extensions resolved; not physical planarity tests or time remaining.",
+      "repeat": 1
+    },
+    {
+      "program": "reconstruction",
+      "core": 1,
+      "status": "TIME_LIMIT",
+      "reason": "Per-core wall-clock limit reached.",
+      "error": null,
+      "time_budget_seconds": 900.0,
+      "elapsed_seconds": 900.0023184000165,
+      "cpu_seconds": 897.859375,
+      "planarity_tests_observed": 323443,
+      "complete_seconds": null,
+      "resolved_exact": "21063974302790247110569975763249489257129739761667401728",
+      "total_exact": "210277998977108063813577501731519294745870336000000000000",
+      "percent_resolved": "10.01720313359239206931",
+      "samples": [
+        {
+          "elapsed_seconds": 0.0,
+          "observed_seconds": 0.0,
+          "recording_delay_seconds": 0,
+          "kind": "start",
+          "phase": "setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 30.0,
+          "observed_seconds": 30.000927600020077,
+          "recording_delay_seconds": 0.0009276000200770795,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "21063974302790247110569958262973950419108613088179916800",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "10.01720313359239206931"
+        },
+        {
+          "elapsed_seconds": 120.0,
+          "observed_seconds": 120.0001140999957,
+          "recording_delay_seconds": 0.00011409999569877982,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "21063974302790247110569958262974119526576645356356168192",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "10.01720313359239206931"
+        },
+        {
+          "elapsed_seconds": 300.0,
+          "observed_seconds": 300.00282650001463,
+          "recording_delay_seconds": 0.002826500014634803,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "21063974302790247110569958263006031515230051485149547520",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "10.01720313359239206931"
+        },
+        {
+          "elapsed_seconds": 600.0,
+          "observed_seconds": 600.0011306000233,
+          "recording_delay_seconds": 0.0011306000233162194,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "21063974302790247110569958265718554898996704058600980480",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "10.01720313359239206931"
+        },
+        {
+          "elapsed_seconds": 900.0,
+          "observed_seconds": 900.0012565000216,
+          "recording_delay_seconds": 0.0012565000215545297,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "21063974302790247110569975763249489257129739761667401728",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "10.01720313359239206931"
+        }
+      ],
+      "intervals": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 30.0,
+          "duration_seconds": 30.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "10.01720313359239206931",
+          "resolved_gain_exact": "21063974302790247110569958262973950419108613088179916800",
+          "resolved_gain_scientific": "2.10639743027902471106E+55",
+          "percentage_point_gain_scientific": "1.00172031335923920693E+1",
+          "resolved_per_second": "7.02132476759674903686E+53",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 30.0,
+          "end_seconds": 120.0,
+          "duration_seconds": 90.0,
+          "start_percent": "10.01720313359239206931",
+          "end_percent": "10.01720313359239206931",
+          "resolved_gain_exact": "169107468032268176251392",
+          "resolved_gain_scientific": "1.69107468032268176251E+23",
+          "percentage_point_gain_scientific": "8.04209041625310873882E-32",
+          "resolved_per_second": "1.87897186702520195835E+21",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 120.0,
+          "end_seconds": 300.0,
+          "duration_seconds": 180.0,
+          "start_percent": "10.01720313359239206931",
+          "end_percent": "10.01720313359239206931",
+          "resolved_gain_exact": "31911988653406128793379328",
+          "resolved_gain_scientific": "3.19119886534061287934E+25",
+          "percentage_point_gain_scientific": "1.51760948880249857955E-29",
+          "resolved_per_second": "1.77288825852256271074E+23",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 300.0,
+          "end_seconds": 600.0,
+          "duration_seconds": 300.0,
+          "start_percent": "10.01720313359239206931",
+          "end_percent": "10.01720313359239206931",
+          "resolved_gain_exact": "2712523383766652573451432960",
+          "resolved_gain_scientific": "2.71252338376665257345E+27",
+          "percentage_point_gain_scientific": "1.28997013332904680779E-27",
+          "resolved_per_second": "9.04174461255550857817E+24",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 600.0,
+          "end_seconds": 900.0,
+          "duration_seconds": 300.0,
+          "start_percent": "10.01720313359239206931",
+          "end_percent": "10.01720313359239206931",
+          "resolved_gain_exact": "17497530934358133035703066421248",
+          "resolved_gain_scientific": "1.74975309343581330357E+31",
+          "percentage_point_gain_scientific": "8.32114202126443268903E-24",
+          "resolved_per_second": "5.83251031145271101190E+28",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        }
+      ],
+      "phase_times": [
+        {
+          "elapsed_seconds": 0.0,
+          "phase": "setup"
+        },
+        {
+          "elapsed_seconds": 0.0031344000017270446,
+          "phase": "search"
+        }
+      ],
+      "activation_order": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "orientation": {
+        "2": [
+          0,
+          3
+        ],
+        "3": [
+          3,
+          4
+        ],
+        "4": [
+          4,
+          5
+        ],
+        "5": [
+          5,
+          2
+        ],
+        "1": [
+          2,
+          1
+        ],
+        "0": [
+          1,
+          0
+        ],
+        "6": [
+          0,
+          6
+        ],
+        "7": [
+          6,
+          7
+        ],
+        "8": [
+          7,
+          8
+        ],
+        "9": [
+          8,
+          9
+        ],
+        "10": [
+          9,
+          10
+        ],
+        "11": [
+          10,
+          2
+        ]
+      },
+      "stats": {
+        "calls": 323442,
+        "prefix_tests": 323442,
+        "prefix_prunes": 313964,
+        "c6_prunes": 0,
+        "complete_tests": 0,
+        "valid_systems": 0,
+        "resolved": 21063974302790247110569975763249489257129739761667401728
+      },
+      "raw_result": null,
+      "source_sha256": "b5898e978269307e54affe402da81daaac75345f4d558514b92c5f2458fbfb4f",
+      "fixture_sha256": "cae1dada56efe98139b1ffc0bd9847611a4a88d053acd47dac264246d09d8e9b",
+      "harness_sha256": "7f2e55b9b435822ac4e17fe661f43c98bc2c7cd65bf144dcc0610502ac48af77",
+      "networkx": "3.3",
+      "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "workers": 1,
+      "reflection_credit": 1,
+      "timing": "After imports and common seed generation; includes all per-run preparation, language loading and local domains. Frozen language generation excluded.",
+      "counter_meaning": "Distinct complete extensions resolved; not physical planarity tests or time remaining.",
+      "repeat": 1
+    },
+    {
+      "program": "reconstruction",
+      "core": 3,
+      "status": "TIME_LIMIT",
+      "reason": "Per-core wall-clock limit reached.",
+      "error": null,
+      "time_budget_seconds": 900.0,
+      "elapsed_seconds": 900.0012966999784,
+      "cpu_seconds": 897.640625,
+      "planarity_tests_observed": 313669,
+      "complete_seconds": null,
+      "resolved_exact": "76395956289013139760663295571112654680451051108540459510",
+      "total_exact": "210277998977108063813577501731519294745870336000000000000",
+      "percent_resolved": "36.33093174780020304088",
+      "samples": [
+        {
+          "elapsed_seconds": 0.0,
+          "observed_seconds": 0.0,
+          "recording_delay_seconds": 0,
+          "kind": "start",
+          "phase": "setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 30.0,
+          "observed_seconds": 30.000078199984273,
+          "recording_delay_seconds": 7.819998427294195e-05,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "76395956289013139760663295571089578659256281285253857280",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "36.33093174780020304088"
+        },
+        {
+          "elapsed_seconds": 120.0,
+          "observed_seconds": 120.00018189998809,
+          "recording_delay_seconds": 0.0001818999880924821,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "76395956289013139760663295571112648892611000170691436032",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "36.33093174780020304088"
+        },
+        {
+          "elapsed_seconds": 300.0,
+          "observed_seconds": 300.00149379999493,
+          "recording_delay_seconds": 0.0014937999949324876,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "76395956289013139760663295571112648994885656012791070720",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "36.33093174780020304088"
+        },
+        {
+          "elapsed_seconds": 600.0,
+          "observed_seconds": 600.0026399999915,
+          "recording_delay_seconds": 0.0026399999915156513,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "76395956289013139760663295571112649674361519742591613060",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "36.33093174780020304088"
+        },
+        {
+          "elapsed_seconds": 900.0,
+          "observed_seconds": 900.0002340999781,
+          "recording_delay_seconds": 0.0002340999781154096,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "76395956289013139760663295571112654680451051108540459510",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "36.33093174780020304088"
+        }
+      ],
+      "intervals": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 30.0,
+          "duration_seconds": 30.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "36.33093174780020304088",
+          "resolved_gain_exact": "76395956289013139760663295571089578659256281285253857280",
+          "resolved_gain_scientific": "7.63959562890131397607E+55",
+          "percentage_point_gain_scientific": "3.63309317478002030409E+1",
+          "resolved_per_second": "2.54653187630043799202E+54",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 30.0,
+          "end_seconds": 120.0,
+          "duration_seconds": 90.0,
+          "start_percent": "36.33093174780020304088",
+          "end_percent": "36.33093174780020304088",
+          "resolved_gain_exact": "23070233354718885437578752",
+          "resolved_gain_scientific": "2.30702333547188854376E+25",
+          "percentage_point_gain_scientific": "1.09713015469727904280E-29",
+          "resolved_per_second": "2.56335926163543171529E+23",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 120.0,
+          "end_seconds": 300.0,
+          "duration_seconds": 180.0,
+          "start_percent": "36.33093174780020304088",
+          "end_percent": "36.33093174780020304088",
+          "resolved_gain_exact": "102274655842099634688",
+          "resolved_gain_scientific": "1.02274655842099634688E+20",
+          "percentage_point_gain_scientific": "4.86378300818973342584E-35",
+          "resolved_per_second": "5.68192532456109081600E+17",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 300.0,
+          "end_seconds": 600.0,
+          "duration_seconds": 300.0,
+          "start_percent": "36.33093174780020304088",
+          "end_percent": "36.33093174780020304088",
+          "resolved_gain_exact": "679475863729800542340",
+          "resolved_gain_scientific": "6.79475863729800542340E+20",
+          "percentage_point_gain_scientific": "3.23132171237644197279E-34",
+          "resolved_per_second": "2.26491954576600180780E+18",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 600.0,
+          "end_seconds": 900.0,
+          "duration_seconds": 300.0,
+          "start_percent": "36.33093174780020304088",
+          "end_percent": "36.33093174780020304088",
+          "resolved_gain_exact": "5006089531365948846450",
+          "resolved_gain_scientific": "5.00608953136594884645E+21",
+          "percentage_point_gain_scientific": "2.38070057529458291209E-33",
+          "resolved_per_second": "1.66869651045531628215E+19",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        }
+      ],
+      "phase_times": [
+        {
+          "elapsed_seconds": 0.0,
+          "phase": "setup"
+        },
+        {
+          "elapsed_seconds": 0.0029697999998461455,
+          "phase": "search"
+        }
+      ],
+      "activation_order": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "orientation": {
+        "2": [
+          0,
+          3
+        ],
+        "3": [
+          3,
+          4
+        ],
+        "4": [
+          4,
+          5
+        ],
+        "5": [
+          5,
+          2
+        ],
+        "1": [
+          2,
+          1
+        ],
+        "0": [
+          1,
+          0
+        ],
+        "6": [
+          0,
+          6
+        ],
+        "7": [
+          6,
+          7
+        ],
+        "8": [
+          7,
+          8
+        ],
+        "9": [
+          8,
+          9
+        ],
+        "10": [
+          9,
+          10
+        ],
+        "11": [
+          10,
+          2
+        ]
+      },
+      "stats": {
+        "calls": 313668,
+        "prefix_tests": 299092,
+        "prefix_prunes": 287528,
+        "c6_prunes": 0,
+        "complete_tests": 14576,
+        "valid_systems": 0,
+        "resolved": 76395956289013139760663295571112654680451051108540459510
+      },
+      "raw_result": null,
+      "source_sha256": "b5898e978269307e54affe402da81daaac75345f4d558514b92c5f2458fbfb4f",
+      "fixture_sha256": "cae1dada56efe98139b1ffc0bd9847611a4a88d053acd47dac264246d09d8e9b",
+      "harness_sha256": "7f2e55b9b435822ac4e17fe661f43c98bc2c7cd65bf144dcc0610502ac48af77",
+      "networkx": "3.3",
+      "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "workers": 1,
+      "reflection_credit": 1,
+      "timing": "After imports and common seed generation; includes all per-run preparation, language loading and local domains. Frozen language generation excluded.",
+      "counter_meaning": "Distinct complete extensions resolved; not physical planarity tests or time remaining.",
+      "repeat": 1
+    },
+    {
+      "program": "v0150",
+      "core": 3,
+      "status": "TIME_LIMIT",
+      "reason": "Per-core wall-clock limit reached.",
+      "error": null,
+      "time_budget_seconds": 900.0,
+      "elapsed_seconds": 900.0112141999998,
+      "cpu_seconds": 898.15625,
+      "planarity_tests_observed": 87725,
+      "complete_seconds": null,
+      "resolved_exact": "210231581403913416799648474208909361893203998398500464792",
+      "total_exact": "210277998977108063813577501731519294745870336000000000000",
+      "percent_resolved": "99.97792561588923039550",
+      "samples": [
+        {
+          "elapsed_seconds": 0.0,
+          "observed_seconds": 0.0,
+          "recording_delay_seconds": 0,
+          "kind": "start",
+          "phase": "setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 30.0,
+          "observed_seconds": 30.000228699995205,
+          "recording_delay_seconds": 0.00022869999520480633,
+          "kind": "checkpoint",
+          "phase": "local-domain setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 120.0,
+          "observed_seconds": 120.00000560001354,
+          "recording_delay_seconds": 5.600013537332416e-06,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210227802399582935523690495385673853808758777672892416000",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97612846908886889992"
+        },
+        {
+          "elapsed_seconds": 300.0,
+          "observed_seconds": 300.0089929999958,
+          "recording_delay_seconds": 0.008992999995825812,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210230654471054634008371268015324591505222929845793587200",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97748480284017541475"
+        },
+        {
+          "elapsed_seconds": 600.0,
+          "observed_seconds": 600.0000485999917,
+          "recording_delay_seconds": 4.859999171458185e-05,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210230654479846406640882580404530635438869517880489534136",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97748480702119895277"
+        },
+        {
+          "elapsed_seconds": 900.0,
+          "observed_seconds": 900.0089350999915,
+          "recording_delay_seconds": 0.008935099991504103,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210231581403913416799648474208909361893203998398500464792",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97792561588923039550"
+        }
+      ],
+      "intervals": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 30.0,
+          "duration_seconds": 30.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "0.00000000000000000000",
+          "resolved_gain_exact": "0",
+          "resolved_gain_scientific": "0.00000000000000000000E+0",
+          "percentage_point_gain_scientific": "0.00000000000000000000E+0",
+          "resolved_per_second": "0.00000000000000000000E+0",
+          "end_phase": "local-domain setup",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 30.0,
+          "end_seconds": 120.0,
+          "duration_seconds": 90.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "99.97612846908886889992",
+          "resolved_gain_exact": "210227802399582935523690495385673853808758777672892416000",
+          "resolved_gain_scientific": "2.10227802399582935524E+56",
+          "percentage_point_gain_scientific": "9.99761284690888688999E+1",
+          "resolved_per_second": "2.33586447110647706137E+54",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 120.0,
+          "end_seconds": 300.0,
+          "duration_seconds": 180.0,
+          "start_percent": "99.97612846908886889992",
+          "end_percent": "99.97748480284017541475",
+          "resolved_gain_exact": "2852071471698484680772629650737696464152172901171200",
+          "resolved_gain_scientific": "2.85207147169848468077E+51",
+          "percentage_point_gain_scientific": "1.35633375130651482830E-3",
+          "resolved_per_second": "1.58448415094360260043E+49",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 300.0,
+          "end_seconds": 600.0,
+          "duration_seconds": 300.0,
+          "start_percent": "99.97748480284017541475",
+          "end_percent": "99.97748480702119895277",
+          "resolved_gain_exact": "8791772632511312389206043933646588034695946936",
+          "resolved_gain_scientific": "8.79177263251131238921E+45",
+          "percentage_point_gain_scientific": "4.18102353802046101336E-9",
+          "resolved_per_second": "2.93059087750377079640E+43",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 600.0,
+          "end_seconds": 900.0,
+          "duration_seconds": 300.0,
+          "start_percent": "99.97748480702119895277",
+          "end_percent": "99.97792561588923039550",
+          "resolved_gain_exact": "926924067010158765893804378726454334480518010930656",
+          "resolved_gain_scientific": "9.26924067010158765894E+50",
+          "percentage_point_gain_scientific": "4.40808868031442723909E-4",
+          "resolved_per_second": "3.08974689003386255298E+48",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        }
+      ],
+      "phase_times": [
+        {
+          "elapsed_seconds": 0.0,
+          "phase": "setup"
+        },
+        {
+          "elapsed_seconds": 0.0008382000087294728,
+          "phase": "language tables and search setup"
+        },
+        {
+          "elapsed_seconds": 2.7183261000027414,
+          "phase": "local-domain setup"
+        },
+        {
+          "elapsed_seconds": 81.91238870000234,
+          "phase": "search"
+        }
+      ],
+      "activation_order": [
+        0,
+        1,
+        5,
+        4,
+        3,
+        2,
+        7,
+        10,
+        9,
+        8,
+        6,
+        11
+      ],
+      "orientation": {
+        "0": [
+          "A",
+          "s1"
+        ],
+        "1": [
+          "s1",
+          "B"
+        ],
+        "5": [
+          "B",
+          "p3"
+        ],
+        "4": [
+          "p3",
+          "p2"
+        ],
+        "3": [
+          "p2",
+          "p1"
+        ],
+        "2": [
+          "p1",
+          "A"
+        ],
+        "6": [
+          "A",
+          "q1"
+        ],
+        "7": [
+          "q1",
+          "q2"
+        ],
+        "8": [
+          "q2",
+          "q3"
+        ],
+        "9": [
+          "q3",
+          "q4"
+        ],
+        "10": [
+          "q4",
+          "q5"
+        ],
+        "11": [
+          "q5",
+          "B"
+        ]
+      },
+      "stats": {
+        "recursive_calls": 5744793,
+        "partial_planarity_tests": 6,
+        "partial_nonplanar_prunes": 0,
+        "c6_consistency_checks": 0,
+        "c6_prunes": 0,
+        "full_planarity_tests": 0,
+        "backtracks": 5737377,
+        "cache_hits": 0,
+        "max_active_edges": 6,
+        "max_modeled_crossings": 51,
+        "screening_states": 0,
+        "screening_candidates": 0,
+        "screening_survivors": 0,
+        "lookahead_states": 0,
+        "lookahead_dead_ends": 0,
+        "lookahead_reused_screens": 0,
+        "incremental_graph_updates": 0,
+        "partial_graph_rebuilds": 0,
+        "locked_prefix_tests": 6,
+        "locked_prefix_prunes": 0,
+        "local_domain_planarity_tests": 22768,
+        "local_domain_planarity_prunes": 18968,
+        "local_domain_signatures": 778,
+        "local_domain_seconds": 79.19300410003052,
+        "domain_stage_states": 7400,
+        "domain_signatures_considered": 1166529,
+        "domain_pruned_stage_assignments": 4224800568608802,
+        "factorized_core_slot_states": 179078,
+        "factorized_extra_choices": 5558315,
+        "superdomain_tests": 64950,
+        "superdomain_prunes": 233806,
+        "superdomain_cache_hits": 293759,
+        "superdomain_cache_entries": 64950,
+        "superdomain_candidates_pruned": 132062265731579888069239819028095671371884711,
+        "superdomain_seconds": 582.6338128962961,
+        "whole_stage_calls": 6421,
+        "whole_stage_cache_hits": 5929,
+        "whole_stage_dead_parents": 398,
+        "whole_stage_projection_classes": 10852,
+        "whole_stage_candidates_pruned": 0,
+        "whole_stage_seconds": 48.07596669968916,
+        "endpoint_queries": 2291,
+        "endpoint_cache_hits": 1799,
+        "endpoint_dead_signatures": 1782,
+        "endpoint_candidates_pruned": 7486742315949339093003636634103129997958510018560000,
+        "endpoint_seconds": 47.865191999968374,
+        "direct_pi_batch_calls": 0,
+        "direct_pi_batch_graphs": 0,
+        "direct_pi_batch_seconds": 0.0,
+        "c8_language_queries": 1,
+        "c8_language_prunes": 5696947,
+        "c8_language_candidates_pruned": 50063090398722331246232938661279230797552463227,
+        "c8_language_row_cache_hits": 0,
+        "c8_language_row_cache_misses": 0,
+        "c8_language_seconds": 4.3000036384910345e-06,
+        "v014_c8_incremental_refinements": 7230508,
+        "v014_c8_sensitive_slot_bundles": 59502,
+        "v014_c8_sensitive_slot_dead": 0,
+        "v014_c8_sensitive_candidates_pruned": 0,
+        "v015_h2_queries": 1,
+        "v015_h2_refinements": 7356761,
+        "v015_h2_prunes": 702817,
+        "v015_h2_candidates_pruned": 4159640189479438877425007725186098867534502364,
+        "v015_h5_queries": 1,
+        "v015_h5_refinements": 7319192,
+        "v015_h5_prunes": 406039,
+        "v015_h5_candidates_pruned": 2815473987977663766194034427202117965533819930,
+        "v015_support_prefix_states": 720601,
+        "v015_support_prefix_dead": 439437,
+        "v015_support_prefix_bundles_skipped": 1271762,
+        "v011_kuratowski_checks": 0,
+        "v011_kuratowski_hits": 0,
+        "v011_kuratowski_learned": 0,
+        "v011_iso_checks": 0,
+        "v011_iso_hits": 0,
+        "v011_batch_calls": 0,
+        "v011_batch_graphs": 0,
+        "v011_batch_seconds": 0.0,
+        "total_candidates": 210277998977108063813577501731519294745870336000000000000,
+        "resolved_candidates": 210231581403913416799648474208909361893203998398500464792,
+        "planarity_pruned_candidates": 210231581403913416799648474208909361893203998398500464792,
+        "c6_pruned_candidates": 0,
+        "full_candidates_resolved": 0,
+        "batch_planarity_calls": 0,
+        "batch_planarity_candidates": 0,
+        "batch_planarity_seconds": 0.0,
+        "depth_planarity_tests": {
+          "6": 6
+        },
+        "depth_nonplanar_prunes": {},
+        "depth_batch_calls": {},
+        "planarity_workers": 1,
+        "openmp_enabled": false,
+        "planarity_parallel_threshold": 4,
+        "kuratowski_certificates_learned": 0,
+        "kuratowski_cache_hits": 0,
+        "kuratowski_certificate_seconds": 0.0,
+        "kuratowski_cached_edges_total": 0,
+        "elapsed_seconds": 0.0,
+        "planarity_backend": "networkx",
+        "planarity_seconds": 0.0353818999719806
+      },
+      "raw_result": null,
+      "source_sha256": "23ae908626820dd3afaf1dbbc180619186e8bfcb417bf8a2bbcac2bb76369632",
+      "fixture_sha256": "cae1dada56efe98139b1ffc0bd9847611a4a88d053acd47dac264246d09d8e9b",
+      "harness_sha256": "7f2e55b9b435822ac4e17fe661f43c98bc2c7cd65bf144dcc0610502ac48af77",
+      "networkx": "3.3",
+      "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "workers": 1,
+      "reflection_credit": 1,
+      "timing": "After imports and common seed generation; includes all per-run preparation, language loading and local domains. Frozen language generation excluded.",
+      "counter_meaning": "Distinct complete extensions resolved; not physical planarity tests or time remaining.",
+      "repeat": 1
+    },
+    {
+      "program": "v0150",
+      "core": 5,
+      "status": "TIME_LIMIT",
+      "reason": "Per-core wall-clock limit reached.",
+      "error": null,
+      "time_budget_seconds": 900.0,
+      "elapsed_seconds": 900.007113300002,
+      "cpu_seconds": 897.46875,
+      "planarity_tests_observed": 101000,
+      "complete_seconds": null,
+      "resolved_exact": "210221670419386058365102239285709623348731150091437974488",
+      "total_exact": "210277998977108063813577501731519294745870336000000000000",
+      "percent_resolved": "99.97321233890563241342",
+      "samples": [
+        {
+          "elapsed_seconds": 0.0,
+          "observed_seconds": 0.0,
+          "recording_delay_seconds": 0,
+          "kind": "start",
+          "phase": "setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 30.0,
+          "observed_seconds": 30.002360300015425,
+          "recording_delay_seconds": 0.0023603000154253095,
+          "kind": "checkpoint",
+          "phase": "local-domain setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 120.0,
+          "observed_seconds": 120.00225550000323,
+          "recording_delay_seconds": 0.0022555000032298267,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210220672186350797996020248492065526424040855694213120000",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97273761827859760802"
+        },
+        {
+          "elapsed_seconds": 300.0,
+          "observed_seconds": 300.00896550001926,
+          "recording_delay_seconds": 0.008965500019257888,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210221527817588567756436606455224637904687385829965824000",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97314452306270814581"
+        },
+        {
+          "elapsed_seconds": 600.0,
+          "observed_seconds": 600.0077464000206,
+          "recording_delay_seconds": 0.0077464000205509365,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210221670419227868284348008353307851947457423062156912784",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97321233883040339207"
+        },
+        {
+          "elapsed_seconds": 900.0,
+          "observed_seconds": 900.0048074999941,
+          "recording_delay_seconds": 0.004807499994058162,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "210221670419386058365102239285709623348731150091437974488",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "99.97321233890563241342"
+        }
+      ],
+      "intervals": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 30.0,
+          "duration_seconds": 30.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "0.00000000000000000000",
+          "resolved_gain_exact": "0",
+          "resolved_gain_scientific": "0.00000000000000000000E+0",
+          "percentage_point_gain_scientific": "0.00000000000000000000E+0",
+          "resolved_per_second": "0.00000000000000000000E+0",
+          "end_phase": "local-domain setup",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 30.0,
+          "end_seconds": 120.0,
+          "duration_seconds": 90.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "99.97273761827859760802",
+          "resolved_gain_exact": "210220672186350797996020248492065526424040855694213120000",
+          "resolved_gain_scientific": "2.10220672186350797996E+56",
+          "percentage_point_gain_scientific": "9.99727376182785976080E+1",
+          "resolved_per_second": "2.33578524651500886662E+54",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 120.0,
+          "end_seconds": 300.0,
+          "duration_seconds": 180.0,
+          "start_percent": "99.97273761827859760802",
+          "end_percent": "99.97314452306270814581",
+          "resolved_gain_exact": "855631237769760416357963159111480646530135752704000",
+          "resolved_gain_scientific": "8.55631237769760416358E+50",
+          "percentage_point_gain_scientific": "4.06904784110537783782E-4",
+          "resolved_per_second": "4.75350687649866897977E+48",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 300.0,
+          "end_seconds": 600.0,
+          "duration_seconds": 300.0,
+          "start_percent": "99.97314452306270814581",
+          "end_percent": "99.97321233883040339207",
+          "resolved_gain_exact": "142601639300527911401898083214042770037232191088784",
+          "resolved_gain_scientific": "1.42601639300527911402E+50",
+          "percentage_point_gain_scientific": "6.78157676952462600079E-5",
+          "resolved_per_second": "4.75338797668426371340E+47",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 600.0,
+          "end_seconds": 900.0,
+          "duration_seconds": 300.0,
+          "start_percent": "99.97321233883040339207",
+          "end_percent": "99.97321233890563241342",
+          "resolved_gain_exact": "158190080754230932401771401273727029281061704",
+          "resolved_gain_scientific": "1.58190080754230932402E+44",
+          "percentage_point_gain_scientific": "7.52290213544652914278E-11",
+          "resolved_per_second": "5.27300269180769774673E+41",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        }
+      ],
+      "phase_times": [
+        {
+          "elapsed_seconds": 0.0,
+          "phase": "setup"
+        },
+        {
+          "elapsed_seconds": 0.0010362000029999763,
+          "phase": "language tables and search setup"
+        },
+        {
+          "elapsed_seconds": 2.831497600011062,
+          "phase": "local-domain setup"
+        },
+        {
+          "elapsed_seconds": 89.63243990001502,
+          "phase": "search"
+        }
+      ],
+      "activation_order": [
+        0,
+        1,
+        5,
+        4,
+        3,
+        2,
+        7,
+        10,
+        9,
+        8,
+        6,
+        11
+      ],
+      "orientation": {
+        "0": [
+          "A",
+          "s1"
+        ],
+        "1": [
+          "s1",
+          "B"
+        ],
+        "5": [
+          "B",
+          "p3"
+        ],
+        "4": [
+          "p3",
+          "p2"
+        ],
+        "3": [
+          "p2",
+          "p1"
+        ],
+        "2": [
+          "p1",
+          "A"
+        ],
+        "6": [
+          "A",
+          "q1"
+        ],
+        "7": [
+          "q1",
+          "q2"
+        ],
+        "8": [
+          "q2",
+          "q3"
+        ],
+        "9": [
+          "q3",
+          "q4"
+        ],
+        "10": [
+          "q4",
+          "q5"
+        ],
+        "11": [
+          "q5",
+          "B"
+        ]
+      },
+      "stats": {
+        "recursive_calls": 3810894,
+        "partial_planarity_tests": 13,
+        "partial_nonplanar_prunes": 0,
+        "c6_consistency_checks": 0,
+        "c6_prunes": 0,
+        "full_planarity_tests": 0,
+        "backtracks": 3805906,
+        "cache_hits": 0,
+        "max_active_edges": 6,
+        "max_modeled_crossings": 51,
+        "screening_states": 0,
+        "screening_candidates": 0,
+        "screening_survivors": 0,
+        "lookahead_states": 0,
+        "lookahead_dead_ends": 0,
+        "lookahead_reused_screens": 0,
+        "incremental_graph_updates": 0,
+        "partial_graph_rebuilds": 0,
+        "locked_prefix_tests": 13,
+        "locked_prefix_prunes": 0,
+        "local_domain_planarity_tests": 24352,
+        "local_domain_planarity_prunes": 20118,
+        "local_domain_signatures": 988,
+        "local_domain_seconds": 86.79952460000641,
+        "domain_stage_states": 4973,
+        "domain_signatures_considered": 3426211,
+        "domain_pruned_stage_assignments": 1568278208188768,
+        "factorized_core_slot_states": 157937,
+        "factorized_extra_choices": 3647984,
+        "superdomain_tests": 76634,
+        "superdomain_prunes": 219914,
+        "superdomain_cache_hits": 245192,
+        "superdomain_cache_entries": 76634,
+        "superdomain_candidates_pruned": 245498749356751103771742384659917310212209292,
+        "superdomain_seconds": 549.836535895447,
+        "whole_stage_calls": 2582,
+        "whole_stage_cache_hits": 1440,
+        "whole_stage_dead_parents": 996,
+        "whole_stage_projection_classes": 33825,
+        "whole_stage_candidates_pruned": 0,
+        "whole_stage_seconds": 149.69428590044845,
+        "endpoint_queries": 11977,
+        "endpoint_cache_hits": 10835,
+        "endpoint_dead_signatures": 10355,
+        "endpoint_candidates_pruned": 11622491325730423710495683086753286488763526021120000,
+        "endpoint_seconds": 149.68126750038937,
+        "direct_pi_batch_calls": 0,
+        "direct_pi_batch_graphs": 0,
+        "direct_pi_batch_seconds": 0.0,
+        "c8_language_queries": 1,
+        "c8_language_prunes": 4903560,
+        "c8_language_candidates_pruned": 2272489916602129719130306398134032107658161172,
+        "c8_language_row_cache_hits": 0,
+        "c8_language_row_cache_misses": 0,
+        "c8_language_seconds": 6.100017344579101e-06,
+        "v014_c8_incremental_refinements": 7390916,
+        "v014_c8_sensitive_slot_bundles": 51393,
+        "v014_c8_sensitive_slot_dead": 0,
+        "v014_c8_sensitive_candidates_pruned": 0,
+        "v015_h2_queries": 1,
+        "v015_h2_refinements": 7514488,
+        "v015_h2_prunes": 1602766,
+        "v015_h2_candidates_pruned": 13920475464085889890239885633225289382996646976,
+        "v015_h5_queries": 1,
+        "v015_h5_refinements": 7485309,
+        "v015_h5_prunes": 593287,
+        "v015_h5_candidates_pruned": 34229204090048883109785877014121989727828002168,
+        "v015_support_prefix_states": 534686,
+        "v015_support_prefix_dead": 273530,
+        "v015_support_prefix_bundles_skipped": 681329,
+        "v011_kuratowski_checks": 0,
+        "v011_kuratowski_hits": 0,
+        "v011_kuratowski_learned": 0,
+        "v011_iso_checks": 0,
+        "v011_iso_hits": 0,
+        "v011_batch_calls": 0,
+        "v011_batch_graphs": 0,
+        "v011_batch_seconds": 0.0,
+        "total_candidates": 210277998977108063813577501731519294745870336000000000000,
+        "resolved_candidates": 210221670419386058365102239285709623348731150091437974488,
+        "planarity_pruned_candidates": 210221670419386058365102239285709623348731150091437974488,
+        "c6_pruned_candidates": 0,
+        "full_candidates_resolved": 0,
+        "batch_planarity_calls": 0,
+        "batch_planarity_candidates": 0,
+        "batch_planarity_seconds": 0.0,
+        "depth_planarity_tests": {
+          "6": 13
+        },
+        "depth_nonplanar_prunes": {},
+        "depth_batch_calls": {},
+        "planarity_workers": 1,
+        "openmp_enabled": false,
+        "planarity_parallel_threshold": 4,
+        "kuratowski_certificates_learned": 0,
+        "kuratowski_cache_hits": 0,
+        "kuratowski_certificate_seconds": 0.0,
+        "kuratowski_cached_edges_total": 0,
+        "elapsed_seconds": 0.0,
+        "planarity_backend": "networkx",
+        "planarity_seconds": 0.07795780003652908
+      },
+      "raw_result": null,
+      "source_sha256": "23ae908626820dd3afaf1dbbc180619186e8bfcb417bf8a2bbcac2bb76369632",
+      "fixture_sha256": "cae1dada56efe98139b1ffc0bd9847611a4a88d053acd47dac264246d09d8e9b",
+      "harness_sha256": "7f2e55b9b435822ac4e17fe661f43c98bc2c7cd65bf144dcc0610502ac48af77",
+      "networkx": "3.3",
+      "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "workers": 1,
+      "reflection_credit": 1,
+      "timing": "After imports and common seed generation; includes all per-run preparation, language loading and local domains. Frozen language generation excluded.",
+      "counter_meaning": "Distinct complete extensions resolved; not physical planarity tests or time remaining.",
+      "repeat": 1
+    },
+    {
+      "program": "reconstruction",
+      "core": 5,
+      "status": "TIME_LIMIT",
+      "reason": "Per-core wall-clock limit reached.",
+      "error": null,
+      "time_budget_seconds": 900.0,
+      "elapsed_seconds": 900.0038114000054,
+      "cpu_seconds": 897.625,
+      "planarity_tests_observed": 312355,
+      "complete_seconds": null,
+      "resolved_exact": "75745675122701109853969412208274405774406809588867602585",
+      "total_exact": "210277998977108063813577501731519294745870336000000000000",
+      "percent_resolved": "36.02168343391320298751",
+      "samples": [
+        {
+          "elapsed_seconds": 0.0,
+          "observed_seconds": 0.0,
+          "recording_delay_seconds": 0,
+          "kind": "start",
+          "phase": "setup",
+          "resolved_exact": "0",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "0.00000000000000000000"
+        },
+        {
+          "elapsed_seconds": 30.0,
+          "observed_seconds": 30.00004430001718,
+          "recording_delay_seconds": 4.430001717992127e-05,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "75745675122701109853969412208258823511771706133177720320",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "36.02168343391320298751"
+        },
+        {
+          "elapsed_seconds": 120.0,
+          "observed_seconds": 120.0017490000173,
+          "recording_delay_seconds": 0.0017490000172983855,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "75745675122701109853969412208258823573822021839921678078",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "36.02168343391320298751"
+        },
+        {
+          "elapsed_seconds": 300.0,
+          "observed_seconds": 300.0000862000161,
+          "recording_delay_seconds": 8.620001608505845e-05,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "75745675122701109853969412208258829567239008868218476536",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "36.02168343391320298751"
+        },
+        {
+          "elapsed_seconds": 600.0,
+          "observed_seconds": 600.0007232000062,
+          "recording_delay_seconds": 0.0007232000061776489,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "75745675122701109853969412208274399779377790017172827136",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "36.02168343391320298751"
+        },
+        {
+          "elapsed_seconds": 900.0,
+          "observed_seconds": 900.0024484000169,
+          "recording_delay_seconds": 0.002448400016874075,
+          "kind": "checkpoint",
+          "phase": "search",
+          "resolved_exact": "75745675122701109853969412208274405774406809588867602585",
+          "total_exact": "210277998977108063813577501731519294745870336000000000000",
+          "percent_resolved": "36.02168343391320298751"
+        }
+      ],
+      "intervals": [
+        {
+          "start_seconds": 0.0,
+          "end_seconds": 30.0,
+          "duration_seconds": 30.0,
+          "start_percent": "0.00000000000000000000",
+          "end_percent": "36.02168343391320298751",
+          "resolved_gain_exact": "75745675122701109853969412208258823511771706133177720320",
+          "resolved_gain_scientific": "7.57456751227011098540E+55",
+          "percentage_point_gain_scientific": "3.60216834339132029875E+1",
+          "resolved_per_second": "2.52485583742337032847E+54",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 30.0,
+          "end_seconds": 120.0,
+          "duration_seconds": 90.0,
+          "start_percent": "36.02168343391320298751",
+          "end_percent": "36.02168343391320298751",
+          "resolved_gain_exact": "62050315706743957758",
+          "resolved_gain_scientific": "6.20503157067439577580E+19",
+          "percentage_point_gain_scientific": "2.95087056223599844216E-35",
+          "resolved_per_second": "6.89447952297155086200E+17",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 120.0,
+          "end_seconds": 300.0,
+          "duration_seconds": 180.0,
+          "start_percent": "36.02168343391320298751",
+          "end_percent": "36.02168343391320298751",
+          "resolved_gain_exact": "5993416987028296798458",
+          "resolved_gain_scientific": "5.99341698702829679846E+21",
+          "percentage_point_gain_scientific": "2.85023493479256988787E-33",
+          "resolved_per_second": "3.32967610390460933248E+19",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 300.0,
+          "end_seconds": 600.0,
+          "duration_seconds": 300.0,
+          "start_percent": "36.02168343391320298751",
+          "end_percent": "36.02168343391320298751",
+          "resolved_gain_exact": "15570212138781148954350600",
+          "resolved_gain_scientific": "1.55702121387811489544E+25",
+          "percentage_point_gain_scientific": "7.40458450932672310387E-30",
+          "resolved_per_second": "5.19007071292704965145E+22",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        },
+        {
+          "start_seconds": 600.0,
+          "end_seconds": 900.0,
+          "duration_seconds": 300.0,
+          "start_percent": "36.02168343391320298751",
+          "end_percent": "36.02168343391320298751",
+          "resolved_gain_exact": "5995029019571694775449",
+          "resolved_gain_scientific": "5.99502901957169477545E+21",
+          "percentage_point_gain_scientific": "2.85100155448233280552E-33",
+          "resolved_per_second": "1.99834300652389825848E+19",
+          "end_phase": "search",
+          "end_kind": "checkpoint"
+        }
+      ],
+      "phase_times": [
+        {
+          "elapsed_seconds": 0.0,
+          "phase": "setup"
+        },
+        {
+          "elapsed_seconds": 0.0029513000044971704,
+          "phase": "search"
+        }
+      ],
+      "activation_order": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "orientation": {
+        "2": [
+          0,
+          3
+        ],
+        "3": [
+          3,
+          4
+        ],
+        "4": [
+          4,
+          5
+        ],
+        "5": [
+          5,
+          2
+        ],
+        "1": [
+          2,
+          1
+        ],
+        "0": [
+          1,
+          0
+        ],
+        "6": [
+          0,
+          6
+        ],
+        "7": [
+          6,
+          7
+        ],
+        "8": [
+          7,
+          8
+        ],
+        "9": [
+          8,
+          9
+        ],
+        "10": [
+          9,
+          10
+        ],
+        "11": [
+          10,
+          2
+        ]
+      },
+      "stats": {
+        "calls": 312354,
+        "prefix_tests": 308196,
+        "prefix_prunes": 298224,
+        "c6_prunes": 0,
+        "complete_tests": 4158,
+        "valid_systems": 0,
+        "resolved": 75745675122701109853969412208274405774406809588867602585
+      },
+      "raw_result": null,
+      "source_sha256": "b5898e978269307e54affe402da81daaac75345f4d558514b92c5f2458fbfb4f",
+      "fixture_sha256": "cae1dada56efe98139b1ffc0bd9847611a4a88d053acd47dac264246d09d8e9b",
+      "harness_sha256": "7f2e55b9b435822ac4e17fe661f43c98bc2c7cd65bf144dcc0610502ac48af77",
+      "networkx": "3.3",
+      "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "workers": 1,
+      "reflection_credit": 1,
+      "timing": "After imports and common seed generation; includes all per-run preparation, language loading and local domains. Frozen language generation excluded.",
+      "counter_meaning": "Distinct complete extensions resolved; not physical planarity tests or time remaining.",
+      "repeat": 1
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "repeat": 1,
+      "core": 0,
+      "kind": "not_established",
+      "description": "No completion-time speedup established."
+    },
+    {
+      "repeat": 1,
+      "core": 1,
+      "kind": "not_established",
+      "description": "No completion-time speedup established."
+    },
+    {
+      "repeat": 1,
+      "core": 3,
+      "kind": "not_established",
+      "description": "No completion-time speedup established."
+    },
+    {
+      "repeat": 1,
+      "core": 5,
+      "kind": "not_established",
+      "description": "No completion-time speedup established."
+    }
+  ]
+}

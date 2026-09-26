@@ -1,0 +1,83 @@
+{
+  "started_utc": "2026-09-25T03:17:35.733976+00:00",
+  "cores": [
+    0,
+    1,
+    3,
+    5
+  ],
+  "repeats": 1,
+  "seconds_each": 900,
+  "checkpoints": [
+    30.0,
+    120.0,
+    300.0,
+    600.0,
+    900.0
+  ],
+  "jobs": [
+    {
+      "repeat": 1,
+      "core": 0,
+      "program": "reconstruction",
+      "directory": "repeat_1_core_0_reconstruction"
+    },
+    {
+      "repeat": 1,
+      "core": 0,
+      "program": "v0150",
+      "directory": "repeat_1_core_0_v0150"
+    },
+    {
+      "repeat": 1,
+      "core": 1,
+      "program": "v0150",
+      "directory": "repeat_1_core_1_v0150"
+    },
+    {
+      "repeat": 1,
+      "core": 1,
+      "program": "reconstruction",
+      "directory": "repeat_1_core_1_reconstruction"
+    },
+    {
+      "repeat": 1,
+      "core": 3,
+      "program": "reconstruction",
+      "directory": "repeat_1_core_3_reconstruction"
+    },
+    {
+      "repeat": 1,
+      "core": 3,
+      "program": "v0150",
+      "directory": "repeat_1_core_3_v0150"
+    },
+    {
+      "repeat": 1,
+      "core": 5,
+      "program": "v0150",
+      "directory": "repeat_1_core_5_v0150"
+    },
+    {
+      "repeat": 1,
+      "core": 5,
+      "program": "reconstruction",
+      "directory": "repeat_1_core_5_reconstruction"
+    }
+  ],
+  "source_hashes": {
+    "reconstruction": "b5898e978269307e54affe402da81daaac75345f4d558514b92c5f2458fbfb4f",
+    "v0150": "23ae908626820dd3afaf1dbbc180619186e8bfcb417bf8a2bbcac2bb76369632"
+  },
+  "fixture_sha256": "cae1dada56efe98139b1ffc0bd9847611a4a88d053acd47dac264246d09d8e9b",
+  "harness_sha256": "7f2e55b9b435822ac4e17fe661f43c98bc2c7cd65bf144dcc0610502ac48af77",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "networkx": "3.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "logical_processors": 12,
+  "shared_core_total_exact": "210277998977108063813577501731519294745870336000000000000",
+  "sequential": true,
+  "balanced_program_order": true,
+  "multiplicity": 1
+}

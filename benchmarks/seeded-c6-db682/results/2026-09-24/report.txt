@@ -1,0 +1,96 @@
+SEEDED C6 COMPARISON
+
+All percentages concern extensions of ONE fixed C6 core, starting from zero.
+Interval rates are observed progress. They do not estimate completion time.
+Both programs use NetworkX 3.3, one worker, separate sequential processes.
+Per-run setup is timed. Common C6 enumeration and frozen-language generation are excluded.
+Reflection copies are NOT credited. Source, fixture, settings and environment are recorded.
+
+FINAL RESULTS
+repeat 1 | core 0 | reconstruction | TIME_LIMIT | 900.004s | 10.02251997387016900342%
+  Setup before main search: 0.003s
+repeat 1 | core 0 | v0150 | TIME_LIMIT | 900.004s | 99.98175726262758792388%
+  Setup before main search: 81.303s
+repeat 1 | core 1 | v0150 | TIME_LIMIT | 900.005s | 99.97972276108622339396%
+  Setup before main search: 81.151s
+repeat 1 | core 1 | reconstruction | TIME_LIMIT | 900.002s | 10.01720313359239206931%
+  Setup before main search: 0.003s
+repeat 1 | core 3 | reconstruction | TIME_LIMIT | 900.001s | 36.33093174780020304088%
+  Setup before main search: 0.003s
+repeat 1 | core 3 | v0150 | TIME_LIMIT | 900.011s | 99.97792561588923039550%
+  Setup before main search: 81.912s
+repeat 1 | core 5 | v0150 | TIME_LIMIT | 900.007s | 99.97321233890563241342%
+  Setup before main search: 89.632s
+repeat 1 | core 5 | reconstruction | TIME_LIMIT | 900.004s | 36.02168343391320298751%
+  Setup before main search: 0.003s
+
+PAIRED COMPLETION COMPARISONS
+repeat 1 | core 0: No completion-time speedup established.
+repeat 1 | core 1: No completion-time speedup established.
+repeat 1 | core 3: No completion-time speedup established.
+repeat 1 | core 5: No completion-time speedup established.
+
+INTERVALS: repeat 1, core 0, reconstruction
+0-30s | 0.00000000000000000000% -> 10.02251997387016900342% | gain 1.00225199738701690034E+1 percentage points | 7.02505148271172178721E+53 resolved systems/s | search
+30-120s | 10.02251997387016900342% -> 10.02251997387016900342% | gain 1.50326559288225926825E-29 percentage points | 3.51226312002686068338E+23 resolved systems/s | search
+120-300s | 10.02251997387016900342% -> 10.02251997387016900342% | gain 1.29018259619763633171E-27 percentage points | 1.50720563690849554834E+25 resolved systems/s | search
+300-600s | 10.02251997387016900342% -> 10.02251997387016900342% | gain 8.32115728917638059667E-24 percentage points | 5.83252101313928756090E+28 resolved systems/s | search
+600-900s | 10.02251997387016900342% -> 10.02251997387016900342% | gain 1.08396935736593896006E-26 percentage points | 7.59783024731371326401E+25 resolved systems/s | search
+
+INTERVALS: repeat 1, core 0, v0150
+0-30s | 0.00000000000000000000% -> 0.00000000000000000000% | gain 0.00000000000000000000E+0 percentage points | 0.00000000000000000000E+0 resolved systems/s | local-domain setup
+30-120s | 0.00000000000000000000% -> 99.98070610424804687500% | gain 9.99807061042480468750E+1 percentage points | 2.33597142399106808361E+54 resolved systems/s | search
+120-300s | 99.98070610424804687500% -> 99.98090955554860470551% | gain 2.03451300557830513100E-4 percentage points | 2.37674068725504388257E+48 resolved systems/s | search
+300-600s | 99.98090955554860470551% -> 99.98165554119991455902% | gain 7.45985651309853505467E-4 percentage points | 5.22881233410235560623E+48 resolved systems/s | search
+600-900s | 99.98165554119991455902% -> 99.98175726262758792388% | gain 1.01721427673364861174E-4 percentage points | 7.12992608808326272450E+47 resolved systems/s | search
+
+INTERVALS: repeat 1, core 1, v0150
+0-30s | 0.00000000000000000000% -> 0.00000000000000000000% | gain 0.00000000000000000000E+0 percentage points | 0.00000000000000000000E+0 resolved systems/s | local-domain setup
+30-120s | 0.00000000000000000000% -> 99.97823078789758814405% | gain 9.99782307878975881441E+1 percentage points | 2.33591359015006699696E+54 resolved systems/s | search
+120-300s | 99.97823078789758814405% -> 99.97853596928699864863% | gain 3.05181389410504579992E-4 percentage points | 3.56516288279413887607E+48 resolved systems/s | search
+300-600s | 99.97853596928699864863% -> 99.97907849920028412989% | gain 5.42529913285481260003E-4 percentage points | 3.80273681836316516504E+48 resolved systems/s | search
+600-900s | 99.97907849920028412989% -> 99.97972276108622339396% | gain 6.44261885939264070486E-4 percentage points | 4.51580333975087607647E+48 resolved systems/s | search
+
+INTERVALS: repeat 1, core 1, reconstruction
+0-30s | 0.00000000000000000000% -> 10.01720313359239206931% | gain 1.00172031335923920693E+1 percentage points | 7.02132476759674903686E+53 resolved systems/s | search
+30-120s | 10.01720313359239206931% -> 10.01720313359239206931% | gain 8.04209041625310873882E-32 percentage points | 1.87897186702520195835E+21 resolved systems/s | search
+120-300s | 10.01720313359239206931% -> 10.01720313359239206931% | gain 1.51760948880249857955E-29 percentage points | 1.77288825852256271074E+23 resolved systems/s | search
+300-600s | 10.01720313359239206931% -> 10.01720313359239206931% | gain 1.28997013332904680779E-27 percentage points | 9.04174461255550857817E+24 resolved systems/s | search
+600-900s | 10.01720313359239206931% -> 10.01720313359239206931% | gain 8.32114202126443268903E-24 percentage points | 5.83251031145271101190E+28 resolved systems/s | search
+
+INTERVALS: repeat 1, core 3, reconstruction
+0-30s | 0.00000000000000000000% -> 36.33093174780020304088% | gain 3.63309317478002030409E+1 percentage points | 2.54653187630043799202E+54 resolved systems/s | search
+30-120s | 36.33093174780020304088% -> 36.33093174780020304088% | gain 1.09713015469727904280E-29 percentage points | 2.56335926163543171529E+23 resolved systems/s | search
+120-300s | 36.33093174780020304088% -> 36.33093174780020304088% | gain 4.86378300818973342584E-35 percentage points | 5.68192532456109081600E+17 resolved systems/s | search
+300-600s | 36.33093174780020304088% -> 36.33093174780020304088% | gain 3.23132171237644197279E-34 percentage points | 2.26491954576600180780E+18 resolved systems/s | search
+600-900s | 36.33093174780020304088% -> 36.33093174780020304088% | gain 2.38070057529458291209E-33 percentage points | 1.66869651045531628215E+19 resolved systems/s | search
+
+INTERVALS: repeat 1, core 3, v0150
+0-30s | 0.00000000000000000000% -> 0.00000000000000000000% | gain 0.00000000000000000000E+0 percentage points | 0.00000000000000000000E+0 resolved systems/s | local-domain setup
+30-120s | 0.00000000000000000000% -> 99.97612846908886889992% | gain 9.99761284690888688999E+1 percentage points | 2.33586447110647706137E+54 resolved systems/s | search
+120-300s | 99.97612846908886889992% -> 99.97748480284017541475% | gain 1.35633375130651482830E-3 percentage points | 1.58448415094360260043E+49 resolved systems/s | search
+300-600s | 99.97748480284017541475% -> 99.97748480702119895277% | gain 4.18102353802046101336E-9 percentage points | 2.93059087750377079640E+43 resolved systems/s | search
+600-900s | 99.97748480702119895277% -> 99.97792561588923039550% | gain 4.40808868031442723909E-4 percentage points | 3.08974689003386255298E+48 resolved systems/s | search
+
+INTERVALS: repeat 1, core 5, v0150
+0-30s | 0.00000000000000000000% -> 0.00000000000000000000% | gain 0.00000000000000000000E+0 percentage points | 0.00000000000000000000E+0 resolved systems/s | local-domain setup
+30-120s | 0.00000000000000000000% -> 99.97273761827859760802% | gain 9.99727376182785976080E+1 percentage points | 2.33578524651500886662E+54 resolved systems/s | search
+120-300s | 99.97273761827859760802% -> 99.97314452306270814581% | gain 4.06904784110537783782E-4 percentage points | 4.75350687649866897977E+48 resolved systems/s | search
+300-600s | 99.97314452306270814581% -> 99.97321233883040339207% | gain 6.78157676952462600079E-5 percentage points | 4.75338797668426371340E+47 resolved systems/s | search
+600-900s | 99.97321233883040339207% -> 99.97321233890563241342% | gain 7.52290213544652914278E-11 percentage points | 5.27300269180769774673E+41 resolved systems/s | search
+
+INTERVALS: repeat 1, core 5, reconstruction
+0-30s | 0.00000000000000000000% -> 36.02168343391320298751% | gain 3.60216834339132029875E+1 percentage points | 2.52485583742337032847E+54 resolved systems/s | search
+30-120s | 36.02168343391320298751% -> 36.02168343391320298751% | gain 2.95087056223599844216E-35 percentage points | 6.89447952297155086200E+17 resolved systems/s | search
+120-300s | 36.02168343391320298751% -> 36.02168343391320298751% | gain 2.85023493479256988787E-33 percentage points | 3.32967610390460933248E+19 resolved systems/s | search
+300-600s | 36.02168343391320298751% -> 36.02168343391320298751% | gain 7.40458450932672310387E-30 percentage points | 5.19007071292704965145E+22 resolved systems/s | search
+600-900s | 36.02168343391320298751% -> 36.02168343391320298751% | gain 2.85100155448233280552E-33 percentage points | 1.99834300652389825848E+19 resolved systems/s | search
+
+INTERPRETATION
+The baseline is an independent reconstruction initialized with a C6 seed and a C6-first Euler trail.
+These are not timings of Fulek and Pach's original software.
+The four default cores are a specified sample of eight. Mathematical reflection symmetry does not
+prove identical runtimes on their partners. Use --cores all to measure all eight.
+Large later prunes can still cause jumps. Compare all interval rows, not just the best interval.
+One pass is descriptive; --repeats 3 provides repeated observations if more runtime is available.
+No fixed x-fold overall speedup or asymptotic complexity change follows from unfinished progress.
