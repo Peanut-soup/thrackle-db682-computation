@@ -20,4 +20,4 @@ The exact frozen program of v0.15.0 is in the V0150 folder with a SHA-256 checks
 Inside of V0150/ and language-generator/ there is a README. These both give a little bit more details on each one and how to actually use them. Please refer to these when trying to run programs and get information about the programs.
 
 # Citation
-Find all citations in CITATIONS.BIB.
+Find all citations in CITATION.BIB.
