@@ -1,0 +1,18 @@
+test_all_eight_real_inputs_and_denominators (__main__.RealCoreTests.test_all_eight_real_inputs_and_denominators) ... ok
+test_changed_fixture_is_rejected (__main__.RealCoreTests.test_changed_fixture_is_rejected) ... ok
+test_crashed_job_is_explicit_in_report (__main__.RecordingTests.test_crashed_job_is_explicit_in_report) ... ok
+test_early_completion_has_only_elapsed_intervals (__main__.RecordingTests.test_early_completion_has_only_elapsed_intervals) ... ok
+test | 3.0s | setup | 1.00000000000000000000% | planarity tests 0
+test | 11.0s | setup | 3.00000000000000000000% | planarity tests 0
+test_late_prune_is_never_credited_early (__main__.RecordingTests.test_late_prune_is_never_credited_early) ... ok
+slow-write | 1.9s | setup | 0.00000000000000000000% | planarity tests 0
+test_slow_progress_write_cannot_backdate_credit (__main__.RecordingTests.test_slow_progress_write_cannot_backdate_credit) ... ok
+test_speed_ratio_requires_completion (__main__.RecordingTests.test_speed_ratio_requires_completion) ... ok
+test_all_seeded_leaves_partition_small_graphs (__main__.SeededEnumerationTests.test_all_seeded_leaves_partition_small_graphs) ... ok
+test_invalid_seed_rejected (__main__.SeededEnumerationTests.test_invalid_seed_rejected) ... ok
+test_orientation_round_trip (__main__.SeededEnumerationTests.test_orientation_round_trip) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.399s
+
+OK
