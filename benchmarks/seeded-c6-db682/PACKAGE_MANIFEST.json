@@ -1,0 +1,66 @@
+{
+  "benchmark.py": {
+    "sha256": "7f2e55b9b435822ac4e17fe661f43c98bc2c7cd65bf144dcc0610502ac48af77",
+    "bytes": 34104
+  },
+  "test_benchmark.py": {
+    "sha256": "e4eb1011971f3b688242408e639d113ea7df10c3a6d8dcbe0cccfc3f28dfe0d8",
+    "bytes": 7866
+  },
+  "cores.json": {
+    "sha256": "cae1dada56efe98139b1ffc0bd9847611a4a88d053acd47dac264246d09d8e9b",
+    "bytes": 4937
+  },
+  "README.md": {
+    "sha256": "0d364ba078ddb89ebd91d238d24675b0a3670ae89998822b92b0dd574609cb06",
+    "bytes": 9287
+  },
+  "VALIDATION.md": {
+    "sha256": "9151c3fe79fa6190a48718a43d87b250b4cb65ffb0ff59f75d4632b9e04cc526",
+    "bytes": 2168
+  },
+  "Start-Benchmark.ps1": {
+    "sha256": "f6fd6426e8e27587b420291062232cdd9357424ebb4580216d0fc0d234ea5bd2",
+    "bytes": 594
+  },
+  "requirements.txt": {
+    "sha256": "8cfe81b00b9c9dd5859ca061f3573454e266576971b111f3220213697407867d",
+    "bytes": 14
+  },
+  ".gitignore": {
+    "sha256": "81e271d4422393e3d29464a347e947c574d2868f63a51389a969d69a611a01a9",
+    "bytes": 25
+  },
+  "sources/c8_regression_witnesses.json": {
+    "sha256": "179cdbfd2294503b57cbe7071c598396153c9744c44b821fa478bfb095df7d0a",
+    "bytes": 8832
+  },
+  "sources/fulek_pach_reconstruction.py": {
+    "sha256": "b5898e978269307e54affe402da81daaac75345f4d558514b92c5f2458fbfb4f",
+    "bytes": 15682
+  },
+  "sources/fulek_pach_thrackle_v0150_FINAL_23ae90.py": {
+    "sha256": "23ae908626820dd3afaf1dbbc180619186e8bfcb417bf8a2bbcac2bb76369632",
+    "bytes": 668344
+  },
+  "sources/legacy_prefix_results.json": {
+    "sha256": "e0481dc82d8fe39cfe27fd96acf38b768cb189576956dbb9fc7f956f4ba7bc26",
+    "bytes": 9666
+  },
+  "sources/test_reconstruction.py": {
+    "sha256": "ce35d3cc2cd351f13aaeddfc05c7e946b9aef7a023f39388dfeaea9e3de477c8",
+    "bytes": 7104
+  },
+  "sources/test_results.json": {
+    "sha256": "eba81251d544d95cd2a79ab838e198af355d3f6e882d6387af282841a76583da",
+    "bytes": 2599
+  },
+  "validation/adapter_tests.txt": {
+    "sha256": "e2fb7a82219454bee94f55015bd01b6848e58400d35cd1c1ce32da35dd99af2a",
+    "bytes": 1456
+  },
+  "validation/original_reconstruction_tests.txt": {
+    "sha256": "f4078e82d6fb50db407d29d245d6d89862c5ecd8c63b2aec135e3867959fa623",
+    "bytes": 1928
+  }
+}
