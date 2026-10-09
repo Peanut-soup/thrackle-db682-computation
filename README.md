@@ -1,7 +1,7 @@
 # Thrackle DB(6,8,-2) Computation
 # Purpose
 
-This repository contains the computational background for Truman Scoppetto, *Another Brick in the Wall: A Computationally Assisted Proof of an Improved Upper Bound for Thrackles*, manuscript in preparation, 2026, as well as the paper itself. The goal of this was to reconstruct and extend the Fulek–Pach algorithm and to optimize it for the DB(6,8,-2) dumbbell so a potential new local bound could be gained.
+This repository contains the computational background for Truman Scoppetto, [*Another Brick in the Wall: A Computationally Assisted Proof of an Improved Upper Bound for Thrackles*](Another_Brick_in_the_Wall.pdf), manuscript in preparation, 2026, as well as the paper itself. The goal of this was to reconstruct and extend the Fulek–Pach algorithm and to optimize it for the DB(6,8,-2) dumbbell so a potential new local bound could be gained.
 
 # Main Result
 
